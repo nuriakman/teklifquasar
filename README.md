@@ -1,10 +1,68 @@
 # Ayarlar
 
-- `quasar.config.js` dosyasında
-  - `vueRouterMode: 'history'`
-  - `plugins: [ 'Notify', 'Dialog' ]`
+## Komutlar
+
+```bash
+# Quasar projesine başla
+npm init quasar
+
+# Proje dizinindeki dosyaların formatını düzelt
+npm run format
+
+# Sunucuyu Başlat
+quasar dev
+```
+
+## **quasar.config.js** Dosyasında yapılan değişiklikler
+
+- `vueRouterMode: 'history'`
+- `plugins: [ 'Notify', 'Dialog', 'AppFullscreen', 'Cookies', 'Loading', 'LocalStorage', 'SessionStorage' ]`
 
 ## Plugin Kullanımı:
+
+### Meta
+
+```JS
+
+```
+
+### LocalStorage ve SessionStorage
+
+```JS
+import { useQuasar } from 'quasar';
+const $q = useQuasar();
+
+$q.localStorage.set('mykey_localStorage', 'myvalue_localStorage');
+const value = $q.localStorage.getItem('mykey_localStorage');
+console.log(value);
+
+$q.sessionStorage.set('mykey_sessionStorage', 'myvalue_sessionStorage');
+const otherValue = $q.sessionStorage.getItem('mykey_sessionStorage');
+console.log(otherValue);
+
+```
+
+### Loading
+
+```JS
+import { useQuasar } from 'quasar';
+const $q = useQuasar();
+$q.loading.show({
+  delay: 1000, // ms
+});
+setTimeout(() => {
+  $q.loading.hide();
+}, 2000);
+```
+
+### Cookie
+
+```JS
+import { Cookies } from 'quasar';
+
+Cookies.set('cookie_name', 'Merhaba');
+console.log(Cookies.get('cookie_name') + ' Dünya');
+```
 
 ### Dialog
 

@@ -18,6 +18,16 @@ quasar dev
 - `vueRouterMode: 'history'`
 - `plugins: [ 'Notify', 'Dialog', 'AppFullscreen', 'Cookies', 'Loading', 'LocalStorage', 'SessionStorage' ]`
 
+## CSS
+
+**Sayfa ortasına getirme:**
+
+```JS
+  <q-page class="row items-center justify-evenly">
+    <h1>Selam</h1>
+  </q-page>
+```
+
 ## Plugin Kullanımı:
 
 ### Meta

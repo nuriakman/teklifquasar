@@ -17,8 +17,8 @@
       img-src="https://cdn.quasar.dev/img/mountains.jpg"
     >
       <div class="absolute-bottom custom-caption">
-        <div class="text-h2">First stop</div>
-        <div class="text-subtitle1">Mountains</div>
+        <div class="text-h2">Teklif verin</div>
+        <div class="text-subtitle1">Hızlı teklif verin</div>
       </div>
     </q-carousel-slide>
     <q-carousel-slide
@@ -26,8 +26,8 @@
       img-src="https://cdn.quasar.dev/img/parallax1.jpg"
     >
       <div class="absolute-bottom custom-caption">
-        <div class="text-h2">Second stop</div>
-        <div class="text-subtitle1">Famous City</div>
+        <div class="text-h2">Siparişlerinizi arttırın</div>
+        <div class="text-subtitle1">Müşteri memnuniyetinizi arttırın</div>
       </div>
     </q-carousel-slide>
     <q-carousel-slide
@@ -35,8 +35,8 @@
       img-src="https://cdn.quasar.dev/img/parallax2.jpg"
     >
       <div class="absolute-bottom custom-caption">
-        <div class="text-h2">Third stop</div>
-        <div class="text-subtitle1">Famous Bridge</div>
+        <div class="text-h2">İşinizi büyütün</div>
+        <div class="text-subtitle1">Yazılımın gücünü kullanın</div>
       </div>
     </q-carousel-slide>
   </q-carousel>

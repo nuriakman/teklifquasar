@@ -18,6 +18,16 @@ quasar dev
 - `vueRouterMode: 'history'`
 - `plugins: [ 'Notify', 'Dialog', 'AppFullscreen', 'Cookies', 'Loading', 'LocalStorage', 'SessionStorage' ]`
 
+## Form
+
+```html
+.myContainer { display: grid; grid-gap: 20px; grid-template-columns: 1fr 4fr; }
+
+<q-form action="https://some-url.com" method="post" @submit.prevent="onSubmit">
+  <!-- ... -->
+</q-form>
+```
+
 ## CSS
 
 **Sayfa ortasına getirme:**

@@ -1,9 +1,12 @@
 <template>
-  <q-page class="q-pa-md">
-    <CarouselMain />
+  <q-page padding>
+    <h1>Main IndexPage</h1>
   </q-page>
 </template>
 
-<script setup lang="ts">
-import CarouselMain from 'src/components/CarouselMain.vue';
+<script lang="ts">
+import { defineComponent } from 'vue';
+export default defineComponent({
+  // name: 'PageName'
+});
 </script>

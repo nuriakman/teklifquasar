@@ -1,6 +1,6 @@
 <template>
   <q-page padding>
-    <h1>Login HelpPage</h1>
+    <h1>Main HelpPage</h1>
   </q-page>
 </template>
 

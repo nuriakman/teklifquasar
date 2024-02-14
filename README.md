@@ -30,6 +30,16 @@ quasar dev
 
 ## CSS
 
+**Ekran ölcüsü küçüldüğünde gizleme**
+
+```HTML
+<h1 :class="{ hidden: $q.screen.lt.lg ? 'none' : '' }">Küçük ekranda gizlecek başlık</h1>
+<script setup lang="ts">
+import { useQuasar } from 'quasar';
+const $q = useQuasar();
+</script>
+```
+
 **Sayfa ortasına getirme:**
 
 ```JS

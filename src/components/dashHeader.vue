@@ -8,7 +8,7 @@ const props = defineProps({
 
 <template>
   <q-card
-    class="text-white"
+    class="text-white gt-sm"
     style="
       width: 100%;
       background: radial-gradient(circle, #35a2ff 0%, #014a88 100%);

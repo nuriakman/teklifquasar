@@ -1,5 +1,5 @@
 <template>
-  <q-layout view="hHh lpr fff">
+  <q-layout view="hHh Lpr LFf">
     <q-header elevated>
       <q-toolbar class="glossy">
         <q-btn flat to="/">
@@ -47,7 +47,7 @@
     <q-drawer
       v-model="drawer"
       :width="200"
-      :breakpoint="400"
+      :breakpoint="300"
       overlay
       bordered
       :class="$q.dark.isActive ? 'bg-grey-9' : 'bg-grey-3'"

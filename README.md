@@ -136,6 +136,68 @@ const $q = useQuasar();
 $q.notify('Merhaba Dünya!');
 ```
 
+# URL'den parametre alarak kullanma
+
+### Router Tanımı
+
+```js
+{
+  path: '/offers',
+  name: 'offerList',
+  component: OffersView,
+  meta: {
+    requiresAuth: true,
+    title: 'Teklif Listesi'
+  }
+},
+{
+  path: '/offer/edit/:id',
+  name: 'offerEdit',
+  component: OfferEditView,
+  meta: {
+    requiresAuth: true,
+    title: 'Teklif Düzenle'
+  }
+},
+
+```
+
+### OfferEditView Component'ı İçinden Kullanım
+
+```js
+<script setup lang="ts">
+import axios from 'axios'
+import { ref, onMounted } from 'vue'
+import { useRouter } from 'vue-router'
+import type { Item } from '@/types/types'
+
+export interface Item {
+  id: number
+  firmaadi: string
+}
+
+
+const $router = useRouter()
+const item = ref<Item | null>(null)
+
+onMounted(() => {
+  axios
+    .post('/index.php', {
+      method: 'get-teklif',
+      id: $router.currentRoute.value.params.id
+    })
+    .then(function (response) {
+      if (response.data.success) {
+        item.value = response.data.item
+      }
+    })
+    .catch(function (error) {
+      console.log(error)
+    })
+})
+</script>
+```
+
 # Quasar App (teklifquasar)
 
 A Quasar Project

@@ -17,14 +17,17 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
-const columns = [
+import type { QTableColumn } from 'quasar';
+
+// const columns = [
+const columns: QTableColumn[] = [
   {
     name: 'name',
     required: true,
     label: 'Dessert (100g serving)',
     align: 'left',
-    field: (row: any) => row.name,
-    format: (val: any) => `${val}`,
+    field: (row: { name: string }) => row.name,
+    format: (val: string) => `${val}`,
     sortable: true,
   },
   {
@@ -50,7 +53,7 @@ const columns = [
     label: 'Iron (%)',
     field: 'iron',
     sortable: true,
-    //sort: (a, b) => parseInt(a, 10) - parseInt(b, 10),
+    // sort: (a, b) => parseInt(a, 10) - parseInt(b, 10),
   },
 ];
 
@@ -168,17 +171,4 @@ let sutunlarCok = [
 ];
 let sutunlarAz = ['name', 'calories', 'fat', 'iron'];
 let sutunlar = ref(sutunlarCok);
-/*
-export default {
-  setup() {
-    return {
-      columns,
-      rows,
-      sutunlar,
-      sutunlarAz,
-      sutunlarCok,
-    };
-  },
-};
-*/
 </script>

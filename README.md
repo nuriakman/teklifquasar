@@ -18,6 +18,20 @@ quasar dev
 - `vueRouterMode: 'history'`
 - `plugins: [ 'Notify', 'Dialog', 'AppFullscreen', 'Cookies', 'Loading', 'LocalStorage', 'SessionStorage' ]`
 
+## QTable
+
+`:columns="columns"` kodu için TS uyarısı alırsak düzeltmek için `QTableColumn` kullanılır
+
+```js
+<q-table
+  :rows="rows"
+  :columns="columns"
+/>
+
+import type { QTableColumn } from 'quasar';
+const columns: QTableColumn[] = [
+```
+
 ## Form
 
 ```html

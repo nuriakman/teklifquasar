@@ -198,6 +198,25 @@ onMounted(() => {
 </script>
 ```
 
+# ref ile html element'e erişim
+
+```html
+<script setup>
+  import { ref } from 'vue';
+  const myinput = ref('');
+
+  function onClickBtn() {
+    console.log(myinput.value.offsetTop);
+    console.log(myinput.value); // document.querySelector() 'e karşılık geliyor!
+  }
+</script>
+
+<template>
+  <input ref="myinput" />
+  <button @click.prevent="onClickBtn()">My Button</button>
+</template>
+```
+
 # Quasar App (teklifquasar)
 
 A Quasar Project

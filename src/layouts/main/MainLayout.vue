@@ -9,6 +9,14 @@
         </q-btn>
         <q-toolbar-title> Teklif Yaz </q-toolbar-title>
         <div class="gt-sm">
+          <q-btn class="q-mr-sm" flat icon="man" to="/home/bus" label="Bus" />
+          <q-btn
+            class="q-mr-sm"
+            flat
+            icon="man"
+            to="/home/konfeti"
+            label="Konfeti"
+          />
           <q-btn class="q-mr-sm" flat icon="man" to="/home/test" label="Test" />
           <q-btn
             class="q-mr-sm"

@@ -1,0 +1,25 @@
+{
+  "sender": "ticket",
+  "apiVersion": "0.2.0",
+  "userId": "70",
+  "method": "routes.list",
+  "params": {
+    "origin": "1"
+  },
+  "data": {
+    "items": [
+      {
+        "id": "9",
+        "name": "ANKARA AŞTİ"
+      },
+      {
+        "id": "6",
+        "name": "KASTAMONU OTOGAR"
+      },
+      {
+        "id": "8",
+        "name": "PURSAKLAR"
+      }
+    ]
+  }
+}

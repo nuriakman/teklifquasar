@@ -1,309 +1,478 @@
 <template>
-  <div class="bus-container">
-    <a class="bus-feature">
-      <i class="fal fa-map-marker-alt"></i>
-      <i class="title">sefer detaylarınını görmek için tıklayınız.</i></a
-    >
-    <div class="bus" style="border: 4px solid blue">
-      <div class="bus-front"></div>
-      <div class="bus-seats">
-        <ul>
-          <li class="seat taken-m">
-            <div class="seat-img">
-              <div class="seat-no">1</div>
-            </div>
-          </li>
-          <li class="empty"></li>
-          <li class="empty floor"></li>
-          <li class="seat available-f">
-            <div class="seat-img">
-              <div class="seat-no">2</div>
-            </div>
-          </li>
-          <li class="seat taken-f">
-            <div class="seat-img">
-              <div class="seat-no">3</div>
-            </div>
-          </li>
-        </ul>
-        <ul>
-          <li class="seat taken-f">
-            <div class="seat-img">
-              <div class="seat-no">4</div>
-            </div>
-          </li>
-          <li class="empty"></li>
-          <li class="empty floor"></li>
-          <li class="seat taken-m">
-            <div class="seat-img">
-              <div class="seat-no">5</div>
-            </div>
-          </li>
-          <li class="seat taken-m">
-            <div class="seat-img">
-              <div class="seat-no">6</div>
-            </div>
-          </li>
-        </ul>
-        <ul>
-          <li class="seat taken-m">
-            <div class="seat-img">
-              <div class="seat-no">7</div>
-            </div>
-          </li>
-          <li class="empty"></li>
-          <li class="empty floor"></li>
-          <li class="seat taken-m">
-            <div class="seat-img">
-              <div class="seat-no">8</div>
-            </div>
-          </li>
-          <li class="seat taken-m">
-            <div class="seat-img">
-              <div class="seat-no">9</div>
-            </div>
-          </li>
-        </ul>
-        <ul>
-          <li class="seat available">
-            <div class="seat-img">
-              <div class="seat-no">10</div>
-            </div>
-          </li>
-          <li class="empty"></li>
-          <li class="empty floor"></li>
-          <li class="seat available seat-selected">
-            <div class="seat-img">
-              <div class="seat-no">11</div>
-            </div>
-          </li>
-          <li class="seat available seat-selected">
-            <div class="seat-img">
-              <div class="seat-no">12</div>
-            </div>
-          </li>
-        </ul>
-        <ul>
-          <li class="seat available">
-            <div class="seat-img">
-              <div class="seat-no">13</div>
-            </div>
-          </li>
-          <li class="empty"></li>
-          <li class="empty floor"></li>
-          <li class="seat available">
-            <div class="seat-img">
-              <div class="seat-no">14</div>
-            </div>
-          </li>
-          <li class="seat available">
-            <div class="seat-img">
-              <div class="seat-no">15</div>
-            </div>
-          </li>
-        </ul>
-        <ul>
-          <li class="seat available">
-            <div class="seat-img">
-              <div class="seat-no">16</div>
-            </div>
-          </li>
-          <li class="empty"></li>
-          <li class="empty floor"></li>
-          <li class="seat available">
-            <div class="seat-img">
-              <div class="seat-no">17</div>
-            </div>
-          </li>
-          <li class="seat available">
-            <div class="seat-img">
-              <div class="seat-no">18</div>
-            </div>
-          </li>
-        </ul>
-        <ul>
-          <li class="seat available">
-            <div class="seat-img">
-              <div class="seat-no">19</div>
-            </div>
-          </li>
-          <li class="empty"></li>
-          <li class="empty floor"></li>
-          <li class="empty"></li>
-          <li class="empty"></li>
-        </ul>
-        <ul>
-          <li class="seat available">
-            <div class="seat-img">
-              <div class="seat-no">20</div>
-            </div>
-          </li>
-          <li class="empty"></li>
-          <li class="empty floor"></li>
-          <li class="seat available">
-            <div class="seat-img">
-              <div class="seat-no">21</div>
-            </div>
-          </li>
-          <li class="seat available">
-            <div class="seat-img">
-              <div class="seat-no">22</div>
-            </div>
-          </li>
-        </ul>
-        <ul>
-          <li class="seat available">
-            <div class="seat-img">
-              <div class="seat-no">23</div>
-            </div>
-          </li>
-          <li class="empty"></li>
-          <li class="empty floor"></li>
-          <li class="seat available seat-selected">
-            <div class="seat-img">
-              <div class="seat-no">24</div>
-            </div>
-          </li>
-          <li class="seat available">
-            <div class="seat-img">
-              <div class="seat-no">25</div>
-            </div>
-          </li>
-        </ul>
-        <ul>
-          <li class="seat taken-m">
-            <div class="seat-img">
-              <div class="seat-no">26</div>
-            </div>
-          </li>
-          <li class="empty"></li>
-          <li class="empty floor"></li>
-          <li class="seat available">
-            <div class="seat-img">
-              <div class="seat-no">27</div>
-            </div>
-          </li>
-          <li class="seat available">
-            <div class="seat-img">
-              <div class="seat-no">28</div>
-            </div>
-          </li>
-        </ul>
-        <ul>
-          <li class="seat available">
-            <div class="seat-img">
-              <div class="seat-no">29</div>
-            </div>
-          </li>
-          <li class="empty"></li>
-          <li class="empty floor"></li>
-          <li class="seat available">
-            <div class="seat-img">
-              <div class="seat-no">30</div>
-            </div>
-          </li>
-          <li class="seat available">
-            <div class="seat-img">
-              <div class="seat-no">31</div>
-            </div>
-          </li>
-        </ul>
-        <ul>
-          <li class="seat available">
-            <div class="seat-img">
-              <div class="seat-no">32</div>
-            </div>
-          </li>
-          <li class="empty"></li>
-          <li class="empty floor"></li>
-          <li class="seat available">
-            <div class="seat-img">
-              <div class="seat-no">33</div>
-            </div>
-          </li>
-          <li class="seat available">
-            <div class="seat-img">
-              <div class="seat-no">34</div>
-            </div>
-          </li>
-        </ul>
-        <ul>
-          <li class="seat available-m">
-            <div class="seat-img">
-              <div class="seat-no">35</div>
-            </div>
-          </li>
-          <li class="seat available-m">
-            <div class="seat-img">
-              <div class="seat-no">38</div>
-            </div>
-          </li>
-          <li class="empty floor"></li>
-          <li class="seat available-m">
-            <div class="seat-img">
-              <div class="seat-no">36</div>
-            </div>
-          </li>
-          <li class="seat available-m">
-            <div class="seat-img">
-              <div class="seat-no">37</div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="seat-info">
-      <ul>
-        <li class="seat seat-empty">
-          <div class="seat-img"></div>
-          <span>Boş</span>
-        </li>
-        <li class="seat seat-male">
-          <div class="seat-img"></div>
-          <span>Dolu (Erkek)</span>
-        </li>
-        <li class="seat seat-female">
-          <div class="seat-img"></div>
-          <span>Dolu (Kadın)</span>
-        </li>
-        <li class="seat seat-selected">
-          <div class="seat-img"></div>
-          <span>Seçili</span>
-        </li>
-      </ul>
-    </div>
-  </div>
+  <table
+    border="0"
+    cellpadding="0"
+    cellspaging="0"
+    style="margin-top: 20px; margin-left: 20px"
+  >
+    <tr>
+      <td>
+        <div class="on_kisim">
+          <q-img
+            src="/src/../public/svg/seat_plan/wheel.svg"
+            width="50px"
+            height="50px"
+            style="margin: 200px 0 0 30px"
+          />
+        </div>
+      </td>
+      <td v-for="r in maxRow" :key="r" class="koltuklar">
+        <div class="koltuk"><busSeat :seat="getSeat(r, 4)" /></div>
+        <div class="koltuk">-</div>
+        <div class="koridor"></div>
+        <div class="koltuk">-</div>
+        <div class="koltuk">-</div>
+      </td>
+      <td>
+        <div class="arka_kisim"></div>
+      </td>
+    </tr>
+  </table>
+  <pre>{{ seatPlan.data.layout.seats }}</pre>
 </template>
 
 <style scoped>
-div.journeys-page
-  div.journeys-list
-  div.journey
-  div.bus-detail
-  div.bus-container
-  div.bus {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  height: 270px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 50px 10px 10px 50px;
-  box-sizing: border-box;
-  margin-bottom: 10px;
-  background: #fff;
+.koltuklar {
+  background-color: #e0e0e0;
 }
-div.journeys-page
-  div.journeys-list
-  div.journey
-  div.bus-detail
-  div.bus-container
-  div.bus
-  div.bus-front {
-  width: 70px;
-  background: url('../img/p/bus/steering-wheel.png') no-repeat bottom 20px
-    center;
-  position: relative;
+.koridor,
+.koltuk {
+  width: 50px;
+  height: 50px;
+  background-color: #afafaf;
+  border: 1px solid black;
+  margin: 5px;
+}
+.koridor {
+  background-color: #e0e0e0;
+  border: 0px;
+}
+.on_kisim {
+  width: 100px;
+  height: 300px;
+  background-color: #e0e0e0;
+  border-radius: 50px 0 0 50px;
+}
+.arka_kisim {
+  width: 20px;
+  height: 300px;
+  background-color: #e0e0e0;
+  border-radius: 0 20px 20px 0;
 }
 </style>
+
+<script setup>
+import busSeat from 'src/components/BusSeat.vue';
+import { computed } from 'vue';
+import { onMounted } from 'vue';
+
+onMounted(() => {
+  //
+});
+
+function getSeat(r, c) {
+  const seat = seatPlan.data.layout.seats.find(
+    (seat) => seat.row == r && seat.col == c
+  );
+  if (seat) return seat;
+  return null;
+}
+
+const maxRow = computed(() =>
+  Math.max(...seatPlan.data.layout.seats.map((seat) => seat.row))
+);
+
+const seatPlan = {
+  sender: 'ticket',
+  apiVersion: '0.2.0',
+  userId: '1',
+  method: 'journeys.seats',
+  params: {
+    journeyId: '147417-3-9',
+  },
+  data: {
+    stats: {
+      userTotal: 0,
+      userCount: 0,
+      officeTotal: 0,
+      officeCount: 0,
+      ticketCount: 10,
+      ticketTotal: 2180,
+      reservedCount: 3,
+      officeDiscountTotal: 0,
+      officeDiscountCount: 0,
+      officeDiscountBalanceHandicaped: 2,
+      officeDiscountLimit: 0,
+      officeDiscountBalance: 0,
+      freeCount: 25,
+    },
+    reservedPassengersList: [
+      {
+        type: 'reserved',
+        recordId: '493764',
+        name: 'AYTUĞ ARMAĞAN',
+        seatNumber: '10',
+        fromName: 'ÇANKIRI OTOGAR',
+        toName: 'ANKARA AŞTİ',
+      },
+      {
+        type: 'reserved',
+        recordId: '492961',
+        name: 'EMİNE KÜÇÜKÇAKIR',
+        seatNumber: '11',
+        fromName: 'KASTAMONU OTOGAR',
+        toName: 'ANKARA AŞTİ',
+      },
+      {
+        type: 'reserved',
+        recordId: '492962',
+        name: 'EMİNE KÜÇÜKÇAKIR',
+        seatNumber: '12',
+        fromName: 'KASTAMONU OTOGAR',
+        toName: 'ANKARA AŞTİ',
+      },
+    ],
+    thisStationTime: '2024-01-10 14:00:00',
+    thisStationFinishTime: '2024-01-10 14:15:00',
+    firstStationTime: '2024-01-10 12:00:00',
+    lastStationTime: '2024-01-10 16:00:00',
+    stats2: {
+      salesBrief: '',
+      salesDetail: '',
+    },
+    other: {
+      journeyNotes: [],
+      forbiddenToInternet: null,
+      routeId: '9',
+      rotaId: '9',
+      fromStationId: 3,
+      toStationId: 9,
+      listId: 147417,
+    },
+    contact: {
+      licensePlate: '21SABIT38',
+      phone: '',
+    },
+    layout: {
+      floor: 1,
+      type: '2+1',
+      seats: [
+        {
+          no: 1,
+          row: 1,
+          col: 1,
+          type: 'taken-f',
+          pricing: 1,
+          seatCode: 'sk',
+        },
+        {
+          no: 2,
+          row: 1,
+          col: 3,
+          type: 'available-f',
+          pricing: 1,
+          seatCode: 'mx',
+        },
+        {
+          no: 3,
+          row: 1,
+          col: 4,
+          type: 'taken-f',
+          pricing: 1,
+          seatCode: 'sk',
+        },
+        {
+          no: 4,
+          row: 2,
+          col: 1,
+          type: 'taken-f',
+          pricing: 1,
+          seatCode: 'sk',
+        },
+        {
+          no: 5,
+          row: 2,
+          col: 3,
+          type: 'taken-f',
+          pricing: 1,
+          seatCode: 'sk',
+        },
+        {
+          no: 6,
+          row: 2,
+          col: 4,
+          type: 'taken-f',
+          pricing: 1,
+          seatCode: 'sk',
+        },
+        {
+          no: 7,
+          row: 3,
+          col: 1,
+          type: 'taken-f',
+          pricing: 1,
+          seatCode: 'sk',
+        },
+        {
+          no: 8,
+          row: 3,
+          col: 3,
+          type: 'available-f',
+          pricing: 1,
+          seatCode: 'mx',
+        },
+        {
+          no: 9,
+          row: 3,
+          col: 4,
+          type: 'taken-f',
+          pricing: 1,
+          seatCode: 'sk',
+        },
+        {
+          no: 10,
+          row: 4,
+          col: 1,
+          type: 'taken-m',
+          pricing: 1,
+          seatCode: 're',
+        },
+        {
+          no: 11,
+          row: 4,
+          col: 3,
+          type: 'taken-m',
+          pricing: 1,
+          seatCode: 're',
+        },
+        {
+          no: 12,
+          row: 4,
+          col: 4,
+          type: 'taken-m',
+          pricing: 1,
+          seatCode: 're',
+        },
+        {
+          no: 13,
+          row: 5,
+          col: 1,
+          type: 'taken-f',
+          pricing: 1,
+          seatCode: 'sk',
+        },
+        {
+          no: 14,
+          row: 5,
+          col: 3,
+          type: 'available-f',
+          pricing: 1,
+          seatCode: 'mx',
+        },
+        {
+          no: 15,
+          row: 5,
+          col: 4,
+          type: 'taken-f',
+          pricing: 1,
+          seatCode: 'sk',
+        },
+        {
+          no: 16,
+          row: 6,
+          col: 1,
+          type: 'taken-m',
+          pricing: 1,
+          seatCode: 'se',
+        },
+        {
+          no: 17,
+          row: 6,
+          col: 3,
+          type: 'available',
+          pricing: 1,
+          seatCode: 'mx',
+        },
+        {
+          no: 18,
+          row: 6,
+          col: 4,
+          type: 'available',
+          pricing: 1,
+          seatCode: 'mx',
+        },
+        {
+          no: 19,
+          row: 7,
+          col: 1,
+          type: 'available',
+          pricing: 1,
+          seatCode: 'mx',
+        },
+        {
+          no: 20,
+          row: 8,
+          col: 1,
+          type: 'available',
+          pricing: 1,
+          seatCode: 'mx',
+        },
+        {
+          no: 21,
+          row: 8,
+          col: 3,
+          type: 'available',
+          pricing: 1,
+          seatCode: 'mx',
+        },
+        {
+          no: 22,
+          row: 8,
+          col: 4,
+          type: 'available',
+          pricing: 1,
+          seatCode: 'mx',
+        },
+        {
+          no: 23,
+          row: 9,
+          col: 1,
+          type: 'available',
+          pricing: 1,
+          seatCode: 'mx',
+        },
+        {
+          no: 24,
+          row: 9,
+          col: 3,
+          type: 'available',
+          pricing: 1,
+          seatCode: 'mx',
+        },
+        {
+          no: 25,
+          row: 9,
+          col: 4,
+          type: 'available',
+          pricing: 1,
+          seatCode: 'mx',
+        },
+        {
+          no: 26,
+          row: 10,
+          col: 1,
+          type: 'available',
+          pricing: 1,
+          seatCode: 'mx',
+        },
+        {
+          no: 27,
+          row: 10,
+          col: 3,
+          type: 'available',
+          pricing: 1,
+          seatCode: 'mx',
+        },
+        {
+          no: 28,
+          row: 10,
+          col: 4,
+          type: 'available',
+          pricing: 1,
+          seatCode: 'mx',
+        },
+        {
+          no: 29,
+          row: 11,
+          col: 1,
+          type: 'available',
+          pricing: 1,
+          seatCode: 'mx',
+        },
+        {
+          no: 30,
+          row: 11,
+          col: 3,
+          type: 'available',
+          pricing: 1,
+          seatCode: 'mx',
+        },
+        {
+          no: 31,
+          row: 11,
+          col: 4,
+          type: 'available',
+          pricing: 1,
+          seatCode: 'mx',
+        },
+        {
+          no: 32,
+          row: 12,
+          col: 1,
+          type: 'available',
+          pricing: 1,
+          seatCode: 'mx',
+        },
+        {
+          no: 33,
+          row: 12,
+          col: 3,
+          type: 'available',
+          pricing: 1,
+          seatCode: 'mx',
+        },
+        {
+          no: 34,
+          row: 12,
+          col: 4,
+          type: 'available',
+          pricing: 1,
+          seatCode: 'mx',
+        },
+        {
+          no: 35,
+          row: 13,
+          col: 1,
+          type: 'available-m',
+          pricing: 1,
+          seatCode: 'mx',
+        },
+        {
+          no: 36,
+          row: 13,
+          col: 3,
+          type: 'available-m',
+          pricing: 1,
+          seatCode: 'mx',
+        },
+        {
+          no: 37,
+          row: 13,
+          col: 4,
+          type: 'available-m',
+          pricing: 1,
+          seatCode: 'mx',
+        },
+        {
+          no: 38,
+          row: 13,
+          col: 2,
+          type: 'available-m',
+          pricing: 1,
+          seatCode: 'mx',
+        },
+      ],
+    },
+    pricing: [
+      {
+        id: 1,
+        name: 'Normal Koltuk',
+        fixPrice: false,
+        adult: 180,
+        child: 126,
+        handicapped: 126,
+      },
+    ],
+  },
+};
+</script>

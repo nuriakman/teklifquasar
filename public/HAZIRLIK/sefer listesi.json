@@ -1,0 +1,914 @@
+sefer listesi
+{
+    "sender": "ticket",
+    "apiVersion": "0.2.0",
+    "userId": "1",
+    "method": "journeys.list.mapped",
+    "params": {
+        "origin": "3",
+        "destination": "9",
+        "routeId": "",
+        "departure": {
+            "from": "2024-01-10 00:00:00",
+            "to": "2024-01-10 23:59:59"
+        }
+    },
+    "data": {
+        "other": {
+            "riskyCount": 0
+        },
+        "items": [
+            {
+                "statusCode": 3,
+                "thisStationTime": "2024-01-10 05:00:00",
+                "thisStationFinishTime": "2024-01-10 05:15:00",
+                "firstStationTime": "2024-01-10 03:00:00",
+                "lastStationTime": "2024-01-10 07:00:00",
+                "journeyId": "147414-3-9",
+                "price": {
+                    "currency": "TRY",
+                    "original": 180,
+                    "internet": 180
+                },
+                "bus": {
+                    "name": "MAN",
+                    "type": "2+1",
+                    "floors": 1,
+                    "seat": 38,
+                    "licensePlate": "21SABIT38",
+                    "isPersonal": 0,
+                    "staff": {
+                        "surucu1": "",
+                        "surucu2": "",
+                        "hostes": "",
+                        "muavin": "",
+                        "surucu1tel": "",
+                        "surucu2tel": "",
+                        "hostestel": "",
+                        "muavintel": ""
+                    },
+                    "phoneGsm": "",
+                    "phoneInt": ""
+                },
+                "routeId": "9",
+                "isActiveList": "1",
+                "acceptReserve": "1",
+                "available": 5,
+                "maxSingleMales": 3,
+                "maxSingleFemales": 3,
+                "features": [
+                    "Nonstop",
+                    "PowerUsb",
+                    "ReadingLamps",
+                    "WiFi",
+                    "CommonTV",
+                    "CommonMusic",
+                    "SeatMonitors",
+                    "SeatTV",
+                    "SeatMusic",
+                    "SeatRadio",
+                    "SeatMedia",
+                    "PhoneCalls"
+                ],
+                "journeyInfo": null,
+                "name": "ÇANKIRI OTOGAR - ANKARA AŞTİ",
+                "nameShort": "ÇANKIRI - ANKARA",
+                "time": "2024-01-10 05:00:00",
+                "route": [
+                    {
+                        "id": "3",
+                        "name": "ÇANKIRI OTOGAR",
+                        "time": "2024-01-10 05:00:00"
+                    },
+                    {
+                        "id": "1",
+                        "name": "TÜNEY ",
+                        "time": "2024-01-10 05:30:00"
+                    },
+                    {
+                        "id": "8",
+                        "name": "PURSAKLAR",
+                        "time": "2024-01-10 06:30:00"
+                    },
+                    {
+                        "id": "9",
+                        "name": "ANKARA AŞTİ",
+                        "time": "2024-01-10 07:00:00"
+                    }
+                ],
+                "travelTime": "2 Saat",
+                "routeType": "Transit"
+            },
+            {
+                "statusCode": 3,
+                "thisStationTime": "2024-01-10 06:45:00",
+                "thisStationFinishTime": "2024-01-10 07:00:00",
+                "firstStationTime": "2024-01-10 05:00:00",
+                "lastStationTime": "2024-01-10 08:45:00",
+                "journeyId": "147415-3-9",
+                "price": {
+                    "currency": "TRY",
+                    "original": 180,
+                    "internet": 180
+                },
+                "bus": {
+                    "name": "MAN",
+                    "type": "2+1",
+                    "floors": 1,
+                    "seat": 38,
+                    "licensePlate": "21SABIT38",
+                    "isPersonal": 0,
+                    "staff": {
+                        "surucu1": "",
+                        "surucu2": "",
+                        "hostes": "",
+                        "muavin": "",
+                        "surucu1tel": "",
+                        "surucu2tel": "",
+                        "hostestel": "",
+                        "muavintel": ""
+                    },
+                    "phoneGsm": "",
+                    "phoneInt": ""
+                },
+                "routeId": "9",
+                "isActiveList": "1",
+                "acceptReserve": "1",
+                "available": 25,
+                "maxSingleMales": 3,
+                "maxSingleFemales": 3,
+                "features": [
+                    "Nonstop",
+                    "PowerUsb",
+                    "ReadingLamps",
+                    "WiFi",
+                    "CommonTV",
+                    "CommonMusic",
+                    "SeatMonitors",
+                    "SeatTV",
+                    "SeatMusic",
+                    "SeatRadio",
+                    "SeatMedia",
+                    "PhoneCalls"
+                ],
+                "journeyInfo": null,
+                "name": "ÇANKIRI OTOGAR - ANKARA AŞTİ",
+                "nameShort": "ÇANKIRI - ANKARA",
+                "time": "2024-01-10 06:45:00",
+                "route": [
+                    {
+                        "id": "3",
+                        "name": "ÇANKIRI OTOGAR",
+                        "time": "2024-01-10 06:45:00"
+                    },
+                    {
+                        "id": "1",
+                        "name": "TÜNEY ",
+                        "time": "2024-01-10 07:15:00"
+                    },
+                    {
+                        "id": "8",
+                        "name": "PURSAKLAR",
+                        "time": "2024-01-10 08:15:00"
+                    },
+                    {
+                        "id": "9",
+                        "name": "ANKARA AŞTİ",
+                        "time": "2024-01-10 08:45:00"
+                    }
+                ],
+                "travelTime": "2 Saat",
+                "routeType": "Transit"
+            },
+            {
+                "statusCode": 3,
+                "thisStationTime": "2024-01-10 08:00:00",
+                "thisStationFinishTime": "2024-01-10 08:15:00",
+                "firstStationTime": "2024-01-10 08:00:00",
+                "lastStationTime": "2024-01-10 10:00:00",
+                "journeyId": "147408-3-9",
+                "price": {
+                    "currency": "TRY",
+                    "original": 180,
+                    "internet": 180
+                },
+                "bus": {
+                    "name": "MAN",
+                    "type": "2+1",
+                    "floors": 1,
+                    "seat": 38,
+                    "licensePlate": "21SABIT38",
+                    "isPersonal": 0,
+                    "staff": {
+                        "surucu1": "",
+                        "surucu2": "",
+                        "hostes": "",
+                        "muavin": "",
+                        "surucu1tel": "",
+                        "surucu2tel": "",
+                        "hostestel": "",
+                        "muavintel": ""
+                    },
+                    "phoneGsm": "",
+                    "phoneInt": ""
+                },
+                "routeId": "2",
+                "isActiveList": "1",
+                "acceptReserve": "1",
+                "available": 32,
+                "maxSingleMales": 3,
+                "maxSingleFemales": 3,
+                "features": [
+                    "Nonstop",
+                    "PowerUsb",
+                    "ReadingLamps",
+                    "WiFi",
+                    "CommonTV",
+                    "CommonMusic",
+                    "SeatMonitors",
+                    "SeatTV",
+                    "SeatMusic",
+                    "SeatRadio",
+                    "SeatMedia",
+                    "PhoneCalls"
+                ],
+                "journeyInfo": null,
+                "name": "ÇANKIRI OTOGAR - ANKARA AŞTİ",
+                "nameShort": "ÇANKIRI - ANKARA",
+                "time": "2024-01-10 08:00:00",
+                "route": [
+                    {
+                        "id": "3",
+                        "name": "ÇANKIRI OTOGAR",
+                        "time": "2024-01-10 08:00:00"
+                    },
+                    {
+                        "id": "1",
+                        "name": "TÜNEY ",
+                        "time": "2024-01-10 08:30:00"
+                    },
+                    {
+                        "id": "8",
+                        "name": "PURSAKLAR",
+                        "time": "2024-01-10 09:30:00"
+                    },
+                    {
+                        "id": "9",
+                        "name": "ANKARA AŞTİ",
+                        "time": "2024-01-10 10:00:00"
+                    }
+                ],
+                "travelTime": "2 Saat",
+                "routeType": "Ana Hat"
+            },
+            {
+                "statusCode": 3,
+                "thisStationTime": "2024-01-10 09:00:00",
+                "thisStationFinishTime": "2024-01-10 09:15:00",
+                "firstStationTime": "2024-01-10 09:00:00",
+                "lastStationTime": "2024-01-10 11:00:00",
+                "journeyId": "147409-3-9",
+                "price": {
+                    "currency": "TRY",
+                    "original": 180,
+                    "internet": 180
+                },
+                "bus": {
+                    "name": "MAN",
+                    "type": "2+1",
+                    "floors": 1,
+                    "seat": 38,
+                    "licensePlate": "21SABIT38",
+                    "isPersonal": 0,
+                    "staff": {
+                        "surucu1": "",
+                        "surucu2": "",
+                        "hostes": "",
+                        "muavin": "",
+                        "surucu1tel": "",
+                        "surucu2tel": "",
+                        "hostestel": "",
+                        "muavintel": ""
+                    },
+                    "phoneGsm": "",
+                    "phoneInt": ""
+                },
+                "routeId": "2",
+                "isActiveList": "1",
+                "acceptReserve": "1",
+                "available": 31,
+                "maxSingleMales": 3,
+                "maxSingleFemales": 3,
+                "features": [
+                    "Nonstop",
+                    "PowerUsb",
+                    "ReadingLamps",
+                    "WiFi",
+                    "CommonTV",
+                    "CommonMusic",
+                    "SeatMonitors",
+                    "SeatTV",
+                    "SeatMusic",
+                    "SeatRadio",
+                    "SeatMedia",
+                    "PhoneCalls"
+                ],
+                "journeyInfo": null,
+                "name": "ÇANKIRI OTOGAR - ANKARA AŞTİ",
+                "nameShort": "ÇANKIRI - ANKARA",
+                "time": "2024-01-10 09:00:00",
+                "route": [
+                    {
+                        "id": "3",
+                        "name": "ÇANKIRI OTOGAR",
+                        "time": "2024-01-10 09:00:00"
+                    },
+                    {
+                        "id": "1",
+                        "name": "TÜNEY ",
+                        "time": "2024-01-10 09:30:00"
+                    },
+                    {
+                        "id": "8",
+                        "name": "PURSAKLAR",
+                        "time": "2024-01-10 10:30:00"
+                    },
+                    {
+                        "id": "9",
+                        "name": "ANKARA AŞTİ",
+                        "time": "2024-01-10 11:00:00"
+                    }
+                ],
+                "travelTime": "2 Saat",
+                "routeType": "Ana Hat"
+            },
+            {
+                "statusCode": 3,
+                "thisStationTime": "2024-01-10 11:00:00",
+                "thisStationFinishTime": "2024-01-10 11:15:00",
+                "firstStationTime": "2024-01-10 09:00:00",
+                "lastStationTime": "2024-01-10 13:00:00",
+                "journeyId": "147416-3-9",
+                "price": {
+                    "currency": "TRY",
+                    "original": 180,
+                    "internet": 180
+                },
+                "bus": {
+                    "name": "MAN",
+                    "type": "2+1",
+                    "floors": 1,
+                    "seat": 38,
+                    "licensePlate": "21SABIT38",
+                    "isPersonal": 0,
+                    "staff": {
+                        "surucu1": "",
+                        "surucu2": "",
+                        "hostes": "",
+                        "muavin": "",
+                        "surucu1tel": "",
+                        "surucu2tel": "",
+                        "hostestel": "",
+                        "muavintel": ""
+                    },
+                    "phoneGsm": "",
+                    "phoneInt": ""
+                },
+                "routeId": "9",
+                "isActiveList": "1",
+                "acceptReserve": "1",
+                "available": 21,
+                "maxSingleMales": 3,
+                "maxSingleFemales": 3,
+                "features": [
+                    "Nonstop",
+                    "PowerUsb",
+                    "ReadingLamps",
+                    "WiFi",
+                    "CommonTV",
+                    "CommonMusic",
+                    "SeatMonitors",
+                    "SeatTV",
+                    "SeatMusic",
+                    "SeatRadio",
+                    "SeatMedia",
+                    "PhoneCalls"
+                ],
+                "journeyInfo": null,
+                "name": "ÇANKIRI OTOGAR - ANKARA AŞTİ",
+                "nameShort": "ÇANKIRI - ANKARA",
+                "time": "2024-01-10 11:00:00",
+                "route": [
+                    {
+                        "id": "3",
+                        "name": "ÇANKIRI OTOGAR",
+                        "time": "2024-01-10 11:00:00"
+                    },
+                    {
+                        "id": "1",
+                        "name": "TÜNEY ",
+                        "time": "2024-01-10 11:30:00"
+                    },
+                    {
+                        "id": "8",
+                        "name": "PURSAKLAR",
+                        "time": "2024-01-10 12:30:00"
+                    },
+                    {
+                        "id": "9",
+                        "name": "ANKARA AŞTİ",
+                        "time": "2024-01-10 13:00:00"
+                    }
+                ],
+                "travelTime": "2 Saat",
+                "routeType": "Transit"
+            },
+            {
+                "statusCode": 3,
+                "thisStationTime": "2024-01-10 13:00:00",
+                "thisStationFinishTime": "2024-01-10 13:15:00",
+                "firstStationTime": "2024-01-10 13:00:00",
+                "lastStationTime": "2024-01-10 15:00:00",
+                "journeyId": "147411-3-9",
+                "price": {
+                    "currency": "TRY",
+                    "original": 180,
+                    "internet": 180
+                },
+                "bus": {
+                    "name": "MAN",
+                    "type": "2+1",
+                    "floors": 1,
+                    "seat": 38,
+                    "licensePlate": "21SABIT38",
+                    "isPersonal": 0,
+                    "staff": {
+                        "surucu1": "",
+                        "surucu2": "",
+                        "hostes": "",
+                        "muavin": "",
+                        "surucu1tel": "",
+                        "surucu2tel": "",
+                        "hostestel": "",
+                        "muavintel": ""
+                    },
+                    "phoneGsm": "",
+                    "phoneInt": ""
+                },
+                "routeId": "2",
+                "isActiveList": "1",
+                "acceptReserve": "1",
+                "available": 32,
+                "maxSingleMales": 3,
+                "maxSingleFemales": 3,
+                "features": [
+                    "Nonstop",
+                    "PowerUsb",
+                    "ReadingLamps",
+                    "WiFi",
+                    "CommonTV",
+                    "CommonMusic",
+                    "SeatMonitors",
+                    "SeatTV",
+                    "SeatMusic",
+                    "SeatRadio",
+                    "SeatMedia",
+                    "PhoneCalls"
+                ],
+                "journeyInfo": null,
+                "name": "ÇANKIRI OTOGAR - ANKARA AŞTİ",
+                "nameShort": "ÇANKIRI - ANKARA",
+                "time": "2024-01-10 13:00:00",
+                "route": [
+                    {
+                        "id": "3",
+                        "name": "ÇANKIRI OTOGAR",
+                        "time": "2024-01-10 13:00:00"
+                    },
+                    {
+                        "id": "1",
+                        "name": "TÜNEY ",
+                        "time": "2024-01-10 13:30:00"
+                    },
+                    {
+                        "id": "8",
+                        "name": "PURSAKLAR",
+                        "time": "2024-01-10 14:30:00"
+                    },
+                    {
+                        "id": "9",
+                        "name": "ANKARA AŞTİ",
+                        "time": "2024-01-10 15:00:00"
+                    }
+                ],
+                "travelTime": "2 Saat",
+                "routeType": "Ana Hat"
+            },
+            {
+                "statusCode": 3,
+                "thisStationTime": "2024-01-10 14:00:00",
+                "thisStationFinishTime": "2024-01-10 14:15:00",
+                "firstStationTime": "2024-01-10 12:00:00",
+                "lastStationTime": "2024-01-10 16:00:00",
+                "journeyId": "147417-3-9",
+                "price": {
+                    "currency": "TRY",
+                    "original": 180,
+                    "internet": 180
+                },
+                "bus": {
+                    "name": "MAN",
+                    "type": "2+1",
+                    "floors": 1,
+                    "seat": 38,
+                    "licensePlate": "21SABIT38",
+                    "isPersonal": 0,
+                    "staff": {
+                        "surucu1": "",
+                        "surucu2": "",
+                        "hostes": "",
+                        "muavin": "",
+                        "surucu1tel": "",
+                        "surucu2tel": "",
+                        "hostestel": "",
+                        "muavintel": ""
+                    },
+                    "phoneGsm": "",
+                    "phoneInt": ""
+                },
+                "routeId": "9",
+                "isActiveList": "1",
+                "acceptReserve": "1",
+                "available": 25,
+                "maxSingleMales": 3,
+                "maxSingleFemales": 3,
+                "features": [
+                    "Nonstop",
+                    "PowerUsb",
+                    "ReadingLamps",
+                    "WiFi",
+                    "CommonTV",
+                    "CommonMusic",
+                    "SeatMonitors",
+                    "SeatTV",
+                    "SeatMusic",
+                    "SeatRadio",
+                    "SeatMedia",
+                    "PhoneCalls"
+                ],
+                "journeyInfo": null,
+                "name": "ÇANKIRI OTOGAR - ANKARA AŞTİ",
+                "nameShort": "ÇANKIRI - ANKARA",
+                "time": "2024-01-10 14:00:00",
+                "route": [
+                    {
+                        "id": "3",
+                        "name": "ÇANKIRI OTOGAR",
+                        "time": "2024-01-10 14:00:00"
+                    },
+                    {
+                        "id": "1",
+                        "name": "TÜNEY ",
+                        "time": "2024-01-10 14:30:00"
+                    },
+                    {
+                        "id": "8",
+                        "name": "PURSAKLAR",
+                        "time": "2024-01-10 15:30:00"
+                    },
+                    {
+                        "id": "9",
+                        "name": "ANKARA AŞTİ",
+                        "time": "2024-01-10 16:00:00"
+                    }
+                ],
+                "travelTime": "2 Saat",
+                "routeType": "Transit"
+            },
+            {
+                "statusCode": 3,
+                "thisStationTime": "2024-01-10 16:00:00",
+                "thisStationFinishTime": "2024-01-10 16:15:00",
+                "firstStationTime": "2024-01-10 16:00:00",
+                "lastStationTime": "2024-01-10 18:00:00",
+                "journeyId": "147410-3-9",
+                "price": {
+                    "currency": "TRY",
+                    "original": 180,
+                    "internet": 180
+                },
+                "bus": {
+                    "name": "MAN",
+                    "type": "2+1",
+                    "floors": 1,
+                    "seat": 38,
+                    "licensePlate": "21SABIT38",
+                    "isPersonal": 0,
+                    "staff": {
+                        "surucu1": "",
+                        "surucu2": "",
+                        "hostes": "",
+                        "muavin": "",
+                        "surucu1tel": "",
+                        "surucu2tel": "",
+                        "hostestel": "",
+                        "muavintel": ""
+                    },
+                    "phoneGsm": "",
+                    "phoneInt": ""
+                },
+                "routeId": "2",
+                "isActiveList": "1",
+                "acceptReserve": "1",
+                "available": 33,
+                "maxSingleMales": 3,
+                "maxSingleFemales": 3,
+                "features": [
+                    "Nonstop",
+                    "PowerUsb",
+                    "ReadingLamps",
+                    "WiFi",
+                    "CommonTV",
+                    "CommonMusic",
+                    "SeatMonitors",
+                    "SeatTV",
+                    "SeatMusic",
+                    "SeatRadio",
+                    "SeatMedia",
+                    "PhoneCalls"
+                ],
+                "journeyInfo": null,
+                "name": "ÇANKIRI OTOGAR - ANKARA AŞTİ",
+                "nameShort": "ÇANKIRI - ANKARA",
+                "time": "2024-01-10 16:00:00",
+                "route": [
+                    {
+                        "id": "3",
+                        "name": "ÇANKIRI OTOGAR",
+                        "time": "2024-01-10 16:00:00"
+                    },
+                    {
+                        "id": "1",
+                        "name": "TÜNEY ",
+                        "time": "2024-01-10 16:30:00"
+                    },
+                    {
+                        "id": "8",
+                        "name": "PURSAKLAR",
+                        "time": "2024-01-10 17:30:00"
+                    },
+                    {
+                        "id": "9",
+                        "name": "ANKARA AŞTİ",
+                        "time": "2024-01-10 18:00:00"
+                    }
+                ],
+                "travelTime": "2 Saat",
+                "routeType": "Ana Hat"
+            },
+            {
+                "statusCode": 3,
+                "thisStationTime": "2024-01-10 17:00:00",
+                "thisStationFinishTime": "2024-01-10 17:15:00",
+                "firstStationTime": "2024-01-10 15:00:00",
+                "lastStationTime": "2024-01-10 19:00:00",
+                "journeyId": "147418-3-9",
+                "price": {
+                    "currency": "TRY",
+                    "original": 180,
+                    "internet": 180
+                },
+                "bus": {
+                    "name": "MAN",
+                    "type": "2+1",
+                    "floors": 1,
+                    "seat": 38,
+                    "licensePlate": "21SABIT38",
+                    "isPersonal": 0,
+                    "staff": {
+                        "surucu1": "",
+                        "surucu2": "",
+                        "hostes": "",
+                        "muavin": "",
+                        "surucu1tel": "",
+                        "surucu2tel": "",
+                        "hostestel": "",
+                        "muavintel": ""
+                    },
+                    "phoneGsm": "",
+                    "phoneInt": ""
+                },
+                "routeId": "9",
+                "isActiveList": "1",
+                "acceptReserve": "1",
+                "available": 26,
+                "maxSingleMales": 3,
+                "maxSingleFemales": 3,
+                "features": [
+                    "Nonstop",
+                    "PowerUsb",
+                    "ReadingLamps",
+                    "WiFi",
+                    "CommonTV",
+                    "CommonMusic",
+                    "SeatMonitors",
+                    "SeatTV",
+                    "SeatMusic",
+                    "SeatRadio",
+                    "SeatMedia",
+                    "PhoneCalls"
+                ],
+                "journeyInfo": null,
+                "name": "ÇANKIRI OTOGAR - ANKARA AŞTİ",
+                "nameShort": "ÇANKIRI - ANKARA",
+                "time": "2024-01-10 17:00:00",
+                "route": [
+                    {
+                        "id": "3",
+                        "name": "ÇANKIRI OTOGAR",
+                        "time": "2024-01-10 17:00:00"
+                    },
+                    {
+                        "id": "1",
+                        "name": "TÜNEY ",
+                        "time": "2024-01-10 17:30:00"
+                    },
+                    {
+                        "id": "8",
+                        "name": "PURSAKLAR",
+                        "time": "2024-01-10 18:30:00"
+                    },
+                    {
+                        "id": "9",
+                        "name": "ANKARA AŞTİ",
+                        "time": "2024-01-10 19:00:00"
+                    }
+                ],
+                "travelTime": "2 Saat",
+                "routeType": "Transit"
+            },
+            {
+                "statusCode": 3,
+                "thisStationTime": "2024-01-10 19:00:00",
+                "thisStationFinishTime": "2024-01-10 19:15:00",
+                "firstStationTime": "2024-01-10 17:00:00",
+                "lastStationTime": "2024-01-10 21:00:00",
+                "journeyId": "147419-3-9",
+                "price": {
+                    "currency": "TRY",
+                    "original": 180,
+                    "internet": 180
+                },
+                "bus": {
+                    "name": "MAN",
+                    "type": "2+1",
+                    "floors": 1,
+                    "seat": 38,
+                    "licensePlate": "21SABIT38",
+                    "isPersonal": 0,
+                    "staff": {
+                        "surucu1": "",
+                        "surucu2": "",
+                        "hostes": "",
+                        "muavin": "",
+                        "surucu1tel": "",
+                        "surucu2tel": "",
+                        "hostestel": "",
+                        "muavintel": ""
+                    },
+                    "phoneGsm": "",
+                    "phoneInt": ""
+                },
+                "routeId": "9",
+                "isActiveList": "1",
+                "acceptReserve": "1",
+                "available": 29,
+                "maxSingleMales": 3,
+                "maxSingleFemales": 3,
+                "features": [
+                    "Nonstop",
+                    "PowerUsb",
+                    "ReadingLamps",
+                    "WiFi",
+                    "CommonTV",
+                    "CommonMusic",
+                    "SeatMonitors",
+                    "SeatTV",
+                    "SeatMusic",
+                    "SeatRadio",
+                    "SeatMedia",
+                    "PhoneCalls"
+                ],
+                "journeyInfo": null,
+                "name": "ÇANKIRI OTOGAR - ANKARA AŞTİ",
+                "nameShort": "ÇANKIRI - ANKARA",
+                "time": "2024-01-10 19:00:00",
+                "route": [
+                    {
+                        "id": "3",
+                        "name": "ÇANKIRI OTOGAR",
+                        "time": "2024-01-10 19:00:00"
+                    },
+                    {
+                        "id": "1",
+                        "name": "TÜNEY ",
+                        "time": "2024-01-10 19:30:00"
+                    },
+                    {
+                        "id": "8",
+                        "name": "PURSAKLAR",
+                        "time": "2024-01-10 20:30:00"
+                    },
+                    {
+                        "id": "9",
+                        "name": "ANKARA AŞTİ",
+                        "time": "2024-01-10 21:00:00"
+                    }
+                ],
+                "travelTime": "2 Saat",
+                "routeType": "Transit"
+            },
+            {
+                "statusCode": 3,
+                "thisStationTime": "2024-01-10 21:30:00",
+                "thisStationFinishTime": "2024-01-10 21:45:00",
+                "firstStationTime": "2024-01-10 19:30:00",
+                "lastStationTime": "2024-01-10 23:30:00",
+                "journeyId": "147420-3-9",
+                "price": {
+                    "currency": "TRY",
+                    "original": 180,
+                    "internet": 180
+                },
+                "bus": {
+                    "name": "MAN",
+                    "type": "2+1",
+                    "floors": 1,
+                    "seat": 38,
+                    "licensePlate": "21SABIT38",
+                    "isPersonal": 0,
+                    "staff": {
+                        "surucu1": "",
+                        "surucu2": "",
+                        "hostes": "",
+                        "muavin": "",
+                        "surucu1tel": "",
+                        "surucu2tel": "",
+                        "hostestel": "",
+                        "muavintel": ""
+                    },
+                    "phoneGsm": "",
+                    "phoneInt": ""
+                },
+                "routeId": "9",
+                "isActiveList": "1",
+                "acceptReserve": "1",
+                "available": 29,
+                "maxSingleMales": 3,
+                "maxSingleFemales": 3,
+                "features": [
+                    "Nonstop",
+                    "PowerUsb",
+                    "ReadingLamps",
+                    "WiFi",
+                    "CommonTV",
+                    "CommonMusic",
+                    "SeatMonitors",
+                    "SeatTV",
+                    "SeatMusic",
+                    "SeatRadio",
+                    "SeatMedia",
+                    "PhoneCalls"
+                ],
+                "journeyInfo": null,
+                "name": "ÇANKIRI OTOGAR - ANKARA AŞTİ",
+                "nameShort": "ÇANKIRI - ANKARA",
+                "time": "2024-01-10 21:30:00",
+                "route": [
+                    {
+                        "id": "3",
+                        "name": "ÇANKIRI OTOGAR",
+                        "time": "2024-01-10 21:30:00"
+                    },
+                    {
+                        "id": "1",
+                        "name": "TÜNEY ",
+                        "time": "2024-01-10 22:00:00"
+                    },
+                    {
+                        "id": "8",
+                        "name": "PURSAKLAR",
+                        "time": "2024-01-10 23:00:00"
+                    },
+                    {
+                        "id": "9",
+                        "name": "ANKARA AŞTİ",
+                        "time": "2024-01-10 23:30:00"
+                    }
+                ],
+                "travelTime": "2 Saat",
+                "routeType": "Transit"
+            }
+        ]
+    }
+}

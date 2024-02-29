@@ -1,0 +1,426 @@
+{
+  "sender": "ticket",
+  "apiVersion": "0.2.0",
+  "userId": "70",
+  "method": "stations.list",
+  "data": {
+    "items": [
+      {
+        "id": "9",
+        "name": "ANKARA AŞTİ",
+        "platform": "50",
+        "contact": {
+          "phone": "903122240837",
+          "address": "Söğütözü Mh. Aşti No:65 Balgat/Çankaya-ANKARA"
+        },
+        "position": {
+          "lat": "39.917084",
+          "lon": "32.810829"
+        }
+      },
+      {
+        "id": "2",
+        "name": "İSTANBUL( AVRUPA )",
+        "platform": "151",
+        "contact": {
+          "phone": "902126583318",
+          "address": "Altıntepsi Mah. Esenler Otogarı Peron 151, 34035 Bayrampaşa-İSTANBUL"
+        },
+        "position": {
+          "lat": "41.038902",
+          "lon": "28.893087"
+        }
+      },
+      {
+        "id": "4",
+        "name": "İSTANBUL( DUDULLU )",
+        "platform": "1",
+        "contact": {
+          "phone": "902163131808",
+          "address": "Şerifali Mh. Sevdiren Sk. No:51/A Ümraniye-İSTANBUL"
+        },
+        "position": {
+          "lat": "40.996479",
+          "lon": "29.154076"
+        }
+      },
+      {
+        "id": "3",
+        "name": "ÇANKIRI OTOGAR",
+        "platform": "1",
+        "contact": {
+          "phone": "903762122020",
+          "address": "Abdulhalik Renda Mh. Bayramlar Sokak No:8 Merkez-ÇANKIRI"
+        },
+        "position": {
+          "lat": "40.592587",
+          "lon": "33.620506"
+        }
+      },
+      {
+        "id": "6",
+        "name": "KASTAMONU OTOGAR",
+        "platform": "11",
+        "contact": {
+          "phone": "903662156000",
+          "address": "Altıntepsi Mah. Esenler Otogarı Peron 151, 34035 Bayrampaşa-İSTANBUL"
+        },
+        "position": {
+          "lat": "41.419434",
+          "lon": "33.790241"
+        }
+      },
+      {
+        "id": "25",
+        "name": "ALİBEYKÖY",
+        "platform": "1",
+        "contact": {
+          "phone": "02124277880",
+          "address": "Güzeltepe, alibeyköy cep otogarı 34060 Eyüpsultan/İstanbul"
+        },
+        "position": {
+          "lat": "41.088181",
+          "lon": "28.945190"
+        }
+      },
+      {
+        "id": "20",
+        "name": "ARAÇ",
+        "platform": "1",
+        "contact": {
+          "phone": "905550346837",
+          "address": "KASTAMONU-ARAÇ"
+        },
+        "position": {
+          "lat": "41.241234",
+          "lon": "33.325020"
+        }
+      },
+      {
+        "id": "16",
+        "name": "ATKARACALAR",
+        "platform": "1",
+        "contact": {
+          "phone": "903767121479",
+          "address": "ÇANKIRI-ATKARACALAR"
+        },
+        "position": {
+          "lat": "40.816071",
+          "lon": "33.075539"
+        }
+      },
+      {
+        "id": "15",
+        "name": "ÇERKEŞ",
+        "platform": "1",
+        "contact": {
+          "phone": "903767663223",
+          "address": "ÇANKIRI-ÇERKEŞ"
+        },
+        "position": {
+          "lat": "40.811558",
+          "lon": "32.891430"
+        }
+      },
+      {
+        "id": "14",
+        "name": "DEVREKANİ",
+        "platform": "1",
+        "contact": {
+          "phone": "903666381212",
+          "address": "KASTAMONU-DEVREKANİ"
+        },
+        "position": {
+          "lat": "41.602043",
+          "lon": "33.839138"
+        }
+      },
+      {
+        "id": "17",
+        "name": "GEBZE OTOGAR",
+        "platform": "20",
+        "contact": {
+          "phone": "902626426055",
+          "address": "Barış, Koşuyolu Cad. No:20, 41400 Gebze/Kocaeli (İzmit)"
+        },
+        "position": {
+          "lat": "40.795006",
+          "lon": "29.460054"
+        }
+      },
+      {
+        "id": "24",
+        "name": "GÜZELYALI",
+        "platform": "1",
+        "contact": {
+          "phone": "905437922534",
+          "address": "GÜZELYALI-İSTANBUL"
+        },
+        "position": {
+          "lat": "40.859329",
+          "lon": "29.281330"
+        }
+      },
+      {
+        "id": "7",
+        "name": "HAREM TERMİNALİ",
+        "platform": "17",
+        "contact": {
+          "phone": "902165531337",
+          "address": "Selimiye Mh. Harem Sahil Yolu Cd. No:32821 Üsküdar-İSTANBUL"
+        },
+        "position": {
+          "lat": "41.011478",
+          "lon": "29.011353"
+        }
+      },
+      {
+        "id": "12",
+        "name": "ILGAZ DOĞRUYOL",
+        "platform": "1",
+        "contact": {
+          "phone": "4441818",
+          "address": "ILGAZ DOĞRUYOL DİNLENME TESİSLERİ"
+        },
+        "position": {
+          "lat": "40.908039",
+          "lon": "33.632286"
+        }
+      },
+      {
+        "id": "28",
+        "name": "ILGAZ AKBAK",
+        "platform": "1",
+        "contact": {
+          "phone": "4441818",
+          "address": "Samsun İstanbul Yolu 4 Yol Mevkii 9/2, 18400 Ilgaz/Çankırı"
+        },
+        "position": {
+          "lat": "40.945320",
+          "lon": "33.673641"
+        }
+      },
+      {
+        "id": "27",
+        "name": "ILGAZ KAYAK MERKEZİ",
+        "platform": "1",
+        "contact": {
+          "phone": "4441818",
+          "address": " 37210, Kastamonu Merkez/Kastamonu"
+        },
+        "position": {
+          "lat": "41.012604",
+          "lon": "33.452354"
+        }
+      },
+      {
+        "id": "18",
+        "name": "İZMİT ( KOCAELİ )",
+        "platform": "7",
+        "contact": {
+          "phone": "902623116152",
+          "address": "Yahyakaptan, 41000 İzmit/Kocaeli"
+        },
+        "position": {
+          "lat": "40.776192",
+          "lon": "29.460054"
+        }
+      },
+      {
+        "id": "21",
+        "name": "KARABÜK OTOGAR",
+        "platform": "1",
+        "contact": {
+          "phone": "905439785899",
+          "address": "KARABÜK"
+        },
+        "position": {
+          "lat": "41.196674",
+          "lon": "32.625198"
+        }
+      },
+      {
+        "id": "46",
+        "name": "SAFRANBOLU",
+        "platform": "1",
+        "contact": {
+          "phone": null,
+          "address": null
+        },
+        "position": {
+          "lat": null,
+          "lon": null
+        }
+      },
+      {
+        "id": "23",
+        "name": "KAYNARCA",
+        "platform": "1",
+        "contact": {
+          "phone": "902163904217",
+          "address": "KAYNARCA-İSTANBUL"
+        },
+        "position": {
+          "lat": "40.876759",
+          "lon": "29.262609"
+        }
+      },
+      {
+        "id": "10",
+        "name": "KORGUN",
+        "platform": "1",
+        "contact": {
+          "phone": "903763431511",
+          "address": "ÇANKIRI -KORGUN"
+        },
+        "position": {
+          "lat": "40.734852",
+          "lon": "33.517536"
+        }
+      },
+      {
+        "id": "5",
+        "name": "KURŞUNLU",
+        "platform": "1",
+        "contact": {
+          "phone": "903764651140",
+          "address": "ÇANKIRI-KURŞUNLU"
+        },
+        "position": {
+          "lat": "40.841492",
+          "lon": "33.263351"
+        }
+      },
+      {
+        "id": "22",
+        "name": "SOĞUKSU IŞIKDAĞI",
+        "platform": "1",
+        "contact": {
+          "phone": null,
+          "address": "ANKARA-SOĞUKSU-IŞIKDAĞI"
+        },
+        "position": {
+          "lat": "40.661179",
+          "lon": "32.707310"
+        }
+      },
+      {
+        "id": "26",
+        "name": "OLUKBAŞI",
+        "platform": "11",
+        "contact": {
+          "phone": "903662156000",
+          "address": "KASTAMONU OLUKBAŞI"
+        },
+        "position": {
+          "lat": "41.363289",
+          "lon": "33.767090"
+        }
+      },
+      {
+        "id": "8",
+        "name": "PURSAKLAR",
+        "platform": "1",
+        "contact": {
+          "phone": "903123280767",
+          "address": "Tevfik İleri, Narcı Sk. No:2, 06145 Pursaklar/Ankara"
+        },
+        "position": {
+          "lat": "40.036541",
+          "lon": "32.905273"
+        }
+      },
+      {
+        "id": "19",
+        "name": "SAKARYA ( ADAPAZARI )",
+        "platform": "25",
+        "contact": {
+          "phone": "902642750009",
+          "address": "Hanlıköy Mah. Hürriyet Cad. No:2 Arifiye/Sakarya"
+        },
+        "position": {
+          "lat": "40.729954",
+          "lon": "30.379889"
+        }
+      },
+      {
+        "id": "13",
+        "name": "SEYDİLER",
+        "platform": "1",
+        "contact": {
+          "phone": "903666684448",
+          "address": "KASTAMONU-SEYDİLER"
+        },
+        "position": {
+          "lat": "41.616997",
+          "lon": "33.719212"
+        }
+      },
+      {
+        "id": "1",
+        "name": "TÜNEY ",
+        "platform": "1",
+        "contact": {
+          "phone": "4441818",
+          "address": "ÇANKIRI-TÜNEY "
+        },
+        "position": {
+          "lat": "40.364368",
+          "lon": "33.520229"
+        }
+      },
+      {
+        "id": "11",
+        "name": "YAMUÇLAR",
+        "platform": "1",
+        "contact": {
+          "phone": "03762128644",
+          "address": "ÇANKIRI-MERKEZ"
+        },
+        "position": {
+          "lat": "40.602032",
+          "lon": "33.610832"
+        }
+      },
+      {
+        "id": "29",
+        "name": "İĞDİR",
+        "platform": null,
+        "contact": {
+          "phone": null,
+          "address": "KASTAMONU-İĞDİR"
+        },
+        "position": {
+          "lat": null,
+          "lon": null
+        }
+      },
+      {
+        "id": "30",
+        "name": "BOLU",
+        "platform": null,
+        "contact": {
+          "phone": "03742741464",
+          "address": "BOLU"
+        },
+        "position": {
+          "lat": "40.734123",
+          "lon": "31.568710"
+        }
+      },
+      {
+        "id": "31",
+        "name": "DÜZCE",
+        "platform": "1",
+        "contact": {
+          "phone": "03805242925",
+          "address": "DÜZCE"
+        },
+        "position": {
+          "lat": "40.828434",
+          "lon": "31.168381"
+        }
+      }
+    ]
+  }
+}

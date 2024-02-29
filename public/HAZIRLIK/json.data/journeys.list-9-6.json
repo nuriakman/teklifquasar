@@ -1,0 +1,584 @@
+{
+  "sender": "ticket",
+  "apiVersion": "0.2.0",
+  "userId": "70",
+  "method": "journeys.list",
+  "params": {
+    "origin": "9",
+    "destination": "6",
+    "departure": {
+      "from": "2023-12-27T00:00:00",
+      "to": "2023-12-28T00:00:00"
+    }
+  },
+  "data": {
+    "items": [
+      {
+        "journeyId": "146492-9-6",
+        "price": {
+          "currency": "TRY",
+          "original": 300,
+          "internet": 300
+        },
+        "bus": {
+          "name": "MAN",
+          "type": "2+1",
+          "floors": 1,
+          "seat": 38
+        },
+        "isActiveList": "1",
+        "available": 26,
+        "maxSingleMales": 3,
+        "maxSingleFemales": 3,
+        "features": [
+          "PowerUsb",
+          "ReadingLamps",
+          "WiFi",
+          "CommonTV",
+          "CommonMusic",
+          "SeatMonitors",
+          "SeatTV",
+          "SeatMusic",
+          "SeatRadio",
+          "SeatMedia",
+          "PhoneCalls"
+        ],
+        "journeyInfo": "",
+        "name": "ANKARA AŞTİ - KASTAMONU OTOGAR",
+        "time": "2023-12-27 07:30:00",
+        "route": [
+          {
+            "id": "9",
+            "name": "ANKARA AŞTİ",
+            "time": "2023-12-27 07:30:00"
+          },
+          {
+            "id": "8",
+            "name": "PURSAKLAR",
+            "time": "2023-12-27 08:00:00"
+          },
+          {
+            "id": "1",
+            "name": "TÜNEY ",
+            "time": "2023-12-27 09:00:00"
+          },
+          {
+            "id": "3",
+            "name": "ÇANKIRI OTOGAR",
+            "time": "2023-12-27 09:30:00"
+          },
+          {
+            "id": "11",
+            "name": "YAMUÇLAR",
+            "time": "2023-12-27 09:35:00"
+          },
+          {
+            "id": "10",
+            "name": "KORGUN",
+            "time": "2023-12-27 09:45:00"
+          },
+          {
+            "id": "27",
+            "name": "ILGAZ KAYAK MERKEZİ",
+            "time": "2023-12-27 10:45:00"
+          },
+          {
+            "id": "6",
+            "name": "KASTAMONU OTOGAR",
+            "time": "2023-12-27 11:15:00"
+          }
+        ],
+        "routeType": "Ana Hat",
+        "travelTime": "3 Saat 45 Dakika"
+      },
+      {
+        "journeyId": "146493-9-6",
+        "price": {
+          "currency": "TRY",
+          "original": 300,
+          "internet": 300
+        },
+        "bus": {
+          "name": "MAN",
+          "type": "2+1",
+          "floors": 1,
+          "seat": 38
+        },
+        "isActiveList": "1",
+        "available": 34,
+        "maxSingleMales": 3,
+        "maxSingleFemales": 3,
+        "features": [
+          "PowerUsb",
+          "ReadingLamps",
+          "WiFi",
+          "CommonTV",
+          "CommonMusic",
+          "SeatMonitors",
+          "SeatTV",
+          "SeatMusic",
+          "SeatRadio",
+          "SeatMedia",
+          "PhoneCalls"
+        ],
+        "journeyInfo": "",
+        "name": "ANKARA AŞTİ - KASTAMONU OTOGAR",
+        "time": "2023-12-27 10:00:00",
+        "route": [
+          {
+            "id": "9",
+            "name": "ANKARA AŞTİ",
+            "time": "2023-12-27 10:00:00"
+          },
+          {
+            "id": "8",
+            "name": "PURSAKLAR",
+            "time": "2023-12-27 10:30:00"
+          },
+          {
+            "id": "1",
+            "name": "TÜNEY ",
+            "time": "2023-12-27 11:30:00"
+          },
+          {
+            "id": "3",
+            "name": "ÇANKIRI OTOGAR",
+            "time": "2023-12-27 12:00:00"
+          },
+          {
+            "id": "11",
+            "name": "YAMUÇLAR",
+            "time": "2023-12-27 12:05:00"
+          },
+          {
+            "id": "10",
+            "name": "KORGUN",
+            "time": "2023-12-27 12:15:00"
+          },
+          {
+            "id": "12",
+            "name": "ILGAZ DOĞRUYOL",
+            "time": "2023-12-27 13:00:00"
+          },
+          {
+            "id": "27",
+            "name": "ILGAZ KAYAK MERKEZİ",
+            "time": "2023-12-27 13:15:00"
+          },
+          {
+            "id": "6",
+            "name": "KASTAMONU OTOGAR",
+            "time": "2023-12-27 13:45:00"
+          }
+        ],
+        "routeType": "Ana Hat",
+        "travelTime": "3 Saat 45 Dakika"
+      },
+      {
+        "journeyId": "146494-9-6",
+        "price": {
+          "currency": "TRY",
+          "original": 300,
+          "internet": 300
+        },
+        "bus": {
+          "name": "MAN",
+          "type": "2+1",
+          "floors": 1,
+          "seat": 38
+        },
+        "isActiveList": "1",
+        "available": 35,
+        "maxSingleMales": 3,
+        "maxSingleFemales": 3,
+        "features": [
+          "PowerUsb",
+          "ReadingLamps",
+          "WiFi",
+          "CommonTV",
+          "CommonMusic",
+          "SeatMonitors",
+          "SeatTV",
+          "SeatMusic",
+          "SeatRadio",
+          "SeatMedia",
+          "PhoneCalls"
+        ],
+        "journeyInfo": "",
+        "name": "ANKARA AŞTİ - KASTAMONU OTOGAR",
+        "time": "2023-12-27 12:00:00",
+        "route": [
+          {
+            "id": "9",
+            "name": "ANKARA AŞTİ",
+            "time": "2023-12-27 12:00:00"
+          },
+          {
+            "id": "8",
+            "name": "PURSAKLAR",
+            "time": "2023-12-27 12:30:00"
+          },
+          {
+            "id": "1",
+            "name": "TÜNEY ",
+            "time": "2023-12-27 13:30:00"
+          },
+          {
+            "id": "3",
+            "name": "ÇANKIRI OTOGAR",
+            "time": "2023-12-27 14:00:00"
+          },
+          {
+            "id": "11",
+            "name": "YAMUÇLAR",
+            "time": "2023-12-27 14:05:00"
+          },
+          {
+            "id": "10",
+            "name": "KORGUN",
+            "time": "2023-12-27 14:15:00"
+          },
+          {
+            "id": "27",
+            "name": "ILGAZ KAYAK MERKEZİ",
+            "time": "2023-12-27 15:15:00"
+          },
+          {
+            "id": "6",
+            "name": "KASTAMONU OTOGAR",
+            "time": "2023-12-27 15:45:00"
+          }
+        ],
+        "routeType": "Ana Hat",
+        "travelTime": "3 Saat 45 Dakika"
+      },
+      {
+        "journeyId": "146495-9-6",
+        "price": {
+          "currency": "TRY",
+          "original": 300,
+          "internet": 300
+        },
+        "bus": {
+          "name": "MAN",
+          "type": "2+1",
+          "floors": 1,
+          "seat": 38
+        },
+        "isActiveList": "1",
+        "available": 37,
+        "maxSingleMales": 3,
+        "maxSingleFemales": 3,
+        "features": [
+          "PowerUsb",
+          "ReadingLamps",
+          "WiFi",
+          "CommonTV",
+          "CommonMusic",
+          "SeatMonitors",
+          "SeatTV",
+          "SeatMusic",
+          "SeatRadio",
+          "SeatMedia",
+          "PhoneCalls"
+        ],
+        "journeyInfo": "",
+        "name": "ANKARA AŞTİ - KASTAMONU OTOGAR",
+        "time": "2023-12-27 14:30:00",
+        "route": [
+          {
+            "id": "9",
+            "name": "ANKARA AŞTİ",
+            "time": "2023-12-27 14:30:00"
+          },
+          {
+            "id": "8",
+            "name": "PURSAKLAR",
+            "time": "2023-12-27 15:00:00"
+          },
+          {
+            "id": "1",
+            "name": "TÜNEY ",
+            "time": "2023-12-27 16:00:00"
+          },
+          {
+            "id": "3",
+            "name": "ÇANKIRI OTOGAR",
+            "time": "2023-12-27 16:30:00"
+          },
+          {
+            "id": "11",
+            "name": "YAMUÇLAR",
+            "time": "2023-12-27 16:35:00"
+          },
+          {
+            "id": "10",
+            "name": "KORGUN",
+            "time": "2023-12-27 16:45:00"
+          },
+          {
+            "id": "12",
+            "name": "ILGAZ DOĞRUYOL",
+            "time": "2023-12-27 17:30:00"
+          },
+          {
+            "id": "27",
+            "name": "ILGAZ KAYAK MERKEZİ",
+            "time": "2023-12-27 17:45:00"
+          },
+          {
+            "id": "6",
+            "name": "KASTAMONU OTOGAR",
+            "time": "2023-12-27 18:15:00"
+          }
+        ],
+        "routeType": "Ana Hat",
+        "travelTime": "3 Saat 45 Dakika"
+      },
+      {
+        "journeyId": "146496-9-6",
+        "price": {
+          "currency": "TRY",
+          "original": 300,
+          "internet": 300
+        },
+        "bus": {
+          "name": "MAN",
+          "type": "2+1",
+          "floors": 1,
+          "seat": 38
+        },
+        "isActiveList": "1",
+        "available": 35,
+        "maxSingleMales": 3,
+        "maxSingleFemales": 3,
+        "features": [
+          "PowerUsb",
+          "ReadingLamps",
+          "WiFi",
+          "CommonTV",
+          "CommonMusic",
+          "SeatMonitors",
+          "SeatTV",
+          "SeatMusic",
+          "SeatRadio",
+          "SeatMedia",
+          "PhoneCalls"
+        ],
+        "journeyInfo": "",
+        "name": "ANKARA AŞTİ - KASTAMONU OTOGAR",
+        "time": "2023-12-27 17:00:00",
+        "route": [
+          {
+            "id": "9",
+            "name": "ANKARA AŞTİ",
+            "time": "2023-12-27 17:00:00"
+          },
+          {
+            "id": "8",
+            "name": "PURSAKLAR",
+            "time": "2023-12-27 17:30:00"
+          },
+          {
+            "id": "1",
+            "name": "TÜNEY ",
+            "time": "2023-12-27 18:30:00"
+          },
+          {
+            "id": "3",
+            "name": "ÇANKIRI OTOGAR",
+            "time": "2023-12-27 19:00:00"
+          },
+          {
+            "id": "11",
+            "name": "YAMUÇLAR",
+            "time": "2023-12-27 19:05:00"
+          },
+          {
+            "id": "10",
+            "name": "KORGUN",
+            "time": "2023-12-27 19:15:00"
+          },
+          {
+            "id": "27",
+            "name": "ILGAZ KAYAK MERKEZİ",
+            "time": "2023-12-27 20:15:00"
+          },
+          {
+            "id": "6",
+            "name": "KASTAMONU OTOGAR",
+            "time": "2023-12-27 20:45:00"
+          }
+        ],
+        "routeType": "Ana Hat",
+        "travelTime": "3 Saat 45 Dakika"
+      },
+      {
+        "journeyId": "146497-9-6",
+        "price": {
+          "currency": "TRY",
+          "original": 300,
+          "internet": 300
+        },
+        "bus": {
+          "name": "MAN",
+          "type": "2+1",
+          "floors": 1,
+          "seat": 38
+        },
+        "isActiveList": "1",
+        "available": 35,
+        "maxSingleMales": 3,
+        "maxSingleFemales": 3,
+        "features": [
+          "PowerUsb",
+          "ReadingLamps",
+          "WiFi",
+          "CommonTV",
+          "CommonMusic",
+          "SeatMonitors",
+          "SeatTV",
+          "SeatMusic",
+          "SeatRadio",
+          "SeatMedia",
+          "PhoneCalls"
+        ],
+        "journeyInfo": "",
+        "name": "ANKARA AŞTİ - KASTAMONU OTOGAR",
+        "time": "2023-12-27 20:00:00",
+        "route": [
+          {
+            "id": "9",
+            "name": "ANKARA AŞTİ",
+            "time": "2023-12-27 20:00:00"
+          },
+          {
+            "id": "8",
+            "name": "PURSAKLAR",
+            "time": "2023-12-27 20:30:00"
+          },
+          {
+            "id": "1",
+            "name": "TÜNEY ",
+            "time": "2023-12-27 21:30:00"
+          },
+          {
+            "id": "3",
+            "name": "ÇANKIRI OTOGAR",
+            "time": "2023-12-27 22:00:00"
+          },
+          {
+            "id": "11",
+            "name": "YAMUÇLAR",
+            "time": "2023-12-27 22:05:00"
+          },
+          {
+            "id": "10",
+            "name": "KORGUN",
+            "time": "2023-12-27 22:15:00"
+          },
+          {
+            "id": "12",
+            "name": "ILGAZ DOĞRUYOL",
+            "time": "2023-12-27 23:00:00"
+          },
+          {
+            "id": "27",
+            "name": "ILGAZ KAYAK MERKEZİ",
+            "time": "2023-12-27 23:15:00"
+          },
+          {
+            "id": "6",
+            "name": "KASTAMONU OTOGAR",
+            "time": "2023-12-27 23:45:00"
+          }
+        ],
+        "routeType": "Ana Hat",
+        "travelTime": "3 Saat 45 Dakika"
+      },
+      {
+        "journeyId": "146498-9-6",
+        "price": {
+          "currency": "TRY",
+          "original": 300,
+          "internet": 300
+        },
+        "bus": {
+          "name": "MAN",
+          "type": "2+1",
+          "floors": 1,
+          "seat": 38
+        },
+        "isActiveList": "1",
+        "available": 38,
+        "maxSingleMales": 3,
+        "maxSingleFemales": 3,
+        "features": [
+          "PowerUsb",
+          "ReadingLamps",
+          "WiFi",
+          "CommonTV",
+          "CommonMusic",
+          "SeatMonitors",
+          "SeatTV",
+          "SeatMusic",
+          "SeatRadio",
+          "SeatMedia",
+          "PhoneCalls"
+        ],
+        "journeyInfo": "",
+        "name": "ANKARA AŞTİ - KASTAMONU OTOGAR",
+        "time": "2023-12-27 23:55:00",
+        "route": [
+          {
+            "id": "9",
+            "name": "ANKARA AŞTİ",
+            "time": "2023-12-27 23:55:00"
+          },
+          {
+            "id": "8",
+            "name": "PURSAKLAR",
+            "time": "2023-12-28 00:25:00"
+          },
+          {
+            "id": "1",
+            "name": "TÜNEY ",
+            "time": "2023-12-28 01:25:00"
+          },
+          {
+            "id": "3",
+            "name": "ÇANKIRI OTOGAR",
+            "time": "2023-12-28 01:55:00"
+          },
+          {
+            "id": "11",
+            "name": "YAMUÇLAR",
+            "time": "2023-12-28 02:00:00"
+          },
+          {
+            "id": "10",
+            "name": "KORGUN",
+            "time": "2023-12-28 02:10:00"
+          },
+          {
+            "id": "12",
+            "name": "ILGAZ DOĞRUYOL",
+            "time": "2023-12-28 02:55:00"
+          },
+          {
+            "id": "27",
+            "name": "ILGAZ KAYAK MERKEZİ",
+            "time": "2023-12-28 03:10:00"
+          },
+          {
+            "id": "6",
+            "name": "KASTAMONU OTOGAR",
+            "time": "2023-12-28 03:40:00"
+          }
+        ],
+        "routeType": "Ana Hat",
+        "travelTime": "3 Saat 45 Dakika"
+      }
+    ]
+  }
+}

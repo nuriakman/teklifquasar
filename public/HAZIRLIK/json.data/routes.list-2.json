@@ -1,0 +1,81 @@
+{
+  "sender": "ticket",
+  "apiVersion": "0.2.0",
+  "userId": "70",
+  "method": "routes.list",
+  "params": {
+    "origin": "2"
+  },
+  "data": {
+    "items": [
+      {
+        "id": "3",
+        "name": "ÇANKIRI OTOGAR"
+      },
+      {
+        "id": "6",
+        "name": "KASTAMONU OTOGAR"
+      },
+      {
+        "id": "20",
+        "name": "ARAÇ"
+      },
+      {
+        "id": "16",
+        "name": "ATKARACALAR"
+      },
+      {
+        "id": "15",
+        "name": "ÇERKEŞ"
+      },
+      {
+        "id": "14",
+        "name": "DEVREKANİ"
+      },
+      {
+        "id": "12",
+        "name": "ILGAZ DOĞRUYOL"
+      },
+      {
+        "id": "18",
+        "name": "İZMİT ( KOCAELİ )"
+      },
+      {
+        "id": "21",
+        "name": "KARABÜK OTOGAR"
+      },
+      {
+        "id": "46",
+        "name": "SAFRANBOLU"
+      },
+      {
+        "id": "10",
+        "name": "KORGUN"
+      },
+      {
+        "id": "5",
+        "name": "KURŞUNLU"
+      },
+      {
+        "id": "19",
+        "name": "SAKARYA ( ADAPAZARI )"
+      },
+      {
+        "id": "13",
+        "name": "SEYDİLER"
+      },
+      {
+        "id": "29",
+        "name": "İĞDİR"
+      },
+      {
+        "id": "30",
+        "name": "BOLU"
+      },
+      {
+        "id": "31",
+        "name": "DÜZCE"
+      }
+    ]
+  }
+}

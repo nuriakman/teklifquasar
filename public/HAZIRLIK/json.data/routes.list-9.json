@@ -1,0 +1,57 @@
+{
+  "sender": "ticket",
+  "apiVersion": "0.2.0",
+  "userId": "70",
+  "method": "routes.list",
+  "params": {
+    "origin": "9"
+  },
+  "data": {
+    "items": [
+      {
+        "id": "2",
+        "name": "İSTANBUL( AVRUPA )"
+      },
+      {
+        "id": "4",
+        "name": "İSTANBUL( DUDULLU )"
+      },
+      {
+        "id": "3",
+        "name": "ÇANKIRI OTOGAR"
+      },
+      {
+        "id": "6",
+        "name": "KASTAMONU OTOGAR"
+      },
+      {
+        "id": "17",
+        "name": "GEBZE OTOGAR"
+      },
+      {
+        "id": "12",
+        "name": "ILGAZ DOĞRUYOL"
+      },
+      {
+        "id": "27",
+        "name": "ILGAZ KAYAK MERKEZİ"
+      },
+      {
+        "id": "18",
+        "name": "İZMİT ( KOCAELİ )"
+      },
+      {
+        "id": "19",
+        "name": "SAKARYA ( ADAPAZARI )"
+      },
+      {
+        "id": "1",
+        "name": "TÜNEY "
+      },
+      {
+        "id": "11",
+        "name": "YAMUÇLAR"
+      }
+    ]
+  }
+}

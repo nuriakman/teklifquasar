@@ -1,0 +1,470 @@
+{
+  "sender": "ticket",
+  "apiVersion": "0.2.0",
+  "userId": "70",
+  "method": "journeys.seats",
+  "params": {
+    "journeyId": "146496-9-6"
+  },
+  "data": {
+    "stats": {
+      "userTotal": 0,
+      "userCount": 0,
+      "officeTotal": 28147,
+      "officeCount": 124,
+      "ticketCount": 3,
+      "ticketTotal": 660,
+      "reservedCount": 0,
+      "officeDiscountTotal": 0,
+      "officeDiscountCount": 0,
+      "officeDiscountBalanceHandicaped": 2,
+      "officeDiscountLimit": 0,
+      "officeDiscountBalance": 0,
+      "freeCount": 35
+    },
+    "reservedPassengersList": [],
+    "thisStationTime": "2023-12-27 17:00:00",
+    "thisStationFinishTime": "2023-12-27 17:15:00",
+    "firstStationTime": "2023-12-27 17:00:00",
+    "lastStationTime": "2023-12-27 20:45:00",
+    "stats2": {
+      "salesBrief": "<table border='1' cellpadding='2' cellspacing='0' class='statsTable statsTable1' width='100%' style='background-color: #F5F5F5;'><tr>\n <td style='background-color: #E91E63;'><b style='color: white !important'>Hareket Yerine Göre Dağılım</b></td>\n <td style='background-color: #E91E63;text-align:center;'><b style='color: white !important'>Sat.</b></td>\n <td style='background-color: #E91E63;text-align:center;'><b style='color: white !important'>Rez.</b></td>\n <td style='background-color: #E91E63;text-align:center;'><b style='color: white !important'>Top.</b></td>\n <td style='background-color: #E91E63;text-align:center;'><b style='color: white !important'>Tutar</b></td>\n </tr> <tr>\n <td><b>17:00</b>, ANKARA AŞTİ</td>\n <td style='text-align:center;'>3</td>\n <td style='text-align:center;'></td>\n <td style='text-align:center;'>3</td>\n <td style='text-align:center;'>660</td>\n\n </tr> <tr>\n <td style='text-align:right;'><b>GENEL TOPLAM : </b></td>\n <td style='text-align:center;'><b>3</b></td>\n <td style='text-align:center;'><b>0</b></td>\n <td style='text-align:center;'><b>3</b></td>\n <td style='text-align:center;'><b>660</b></td>\n </tr> </table><br>",
+      "salesDetail": "<table border='1' cellpadding='2' cellspacing='0' class='statsTable statsTable2' width='100%' style='background-color: #F5F5F5;'><tr>\n <td style='background-color: #E91E63;'><b style='color: white !important'>Satışların dağılımı</b></td>\n <td style='background-color: #E91E63;text-align:center;'><b style='color: white !important'>Sat.</b></td>\n <td style='background-color: #E91E63;text-align:center;'><b style='color: white !important'>Rez.</b></td>\n <td style='background-color: #E91E63;text-align:center;'><b style='color: white !important'>Top.</b></td>\n <td style='background-color: #E91E63;text-align:center;'><b style='color: white !important'>Tutar</b></td>\n </tr> <tr>\n <td colspan='5'>\n <b>17:00, <span style='color: black;'> ANKARA AŞTİ</span></b>\n </td>\n </tr>\n <tr>\n <td>&nbsp;&bull;&nbsp;Çankırı - Otogar</td>\n <td style='text-align:center;'>2</td>\n <td style='text-align:center;'></td>\n <td style='text-align:center;'>2</td>\n <td style='text-align:center;'>360</td>\n </tr> <tr>\n <td>&nbsp;&bull;&nbsp;İnternet - oBilet</td>\n <td style='text-align:center;'>1</td>\n <td style='text-align:center;'></td>\n <td style='text-align:center;'>1</td>\n <td style='text-align:center;'>300</td>\n </tr> <tr>\n <td style='text-align:right;'><b>GENEL TOPLAM : </b></td>\n <td style='text-align:center;'><b>3</b></td>\n <td style='text-align:center;'><b>0</b></td>\n <td style='text-align:center;'><b>3</b></td>\n <td style='text-align:center;'><b>660</b></td>\n </tr> </table><br>"
+    },
+    "other": {
+      "journeyNotes": [],
+      "forbiddenToInternet": null,
+      "routeId": "10",
+      "rotaId": "10",
+      "fromStationId": 9,
+      "toStationId": 6,
+      "listId": 146496
+    },
+    "contact": {
+      "licensePlate": "21SABIT38",
+      "phone": ""
+    },
+    "layout": {
+      "floor": 1,
+      "type": "2+1",
+      "seats": [
+        {
+          "no": 1,
+          "row": 1,
+          "col": 1,
+          "type": "available",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 2,
+          "row": 1,
+          "col": 3,
+          "type": "taken-m",
+          "pricing": 1,
+          "seatCode": "se",
+          "passengerCount": 1,
+          "passengerInfo": {
+            "type": "sold",
+            "recordId": "3894620",
+            "name": "KADİR GÜNTA",
+            "identityNo": "31040467522",
+            "passengerCardNumber": "0",
+            "seatPrice": "180.00",
+            "seatListPrice": "180.00",
+            "paymentTypeId": "1",
+            "openRefNo": "0",
+            "discountTypeId": "1",
+            "phone": "05333871684",
+            "notes": "",
+            "fee": "0.00",
+            "gender": "E",
+            "seatNumber": "2",
+            "toBus": "",
+            "toService": "",
+            "nationality": "TR",
+            "hesCode": "",
+            "hesResponse": "n",
+            "soldAtId": "11",
+            "fromNameId": "9",
+            "fromName": "ANKARA AŞTİ",
+            "toNameId": "3",
+            "toName": "ÇANKIRI OTOGAR",
+            "fromDate": "27.12.2023",
+            "fromTime": "17:00",
+            "soldWorker": "Sultan Gökçe",
+            "soldBy": "Çankırı - Yamuçlar",
+            "soldTime": "23.12.2023 14:07",
+            "gateNo": "30"
+          }
+        },
+        {
+          "no": 3,
+          "row": 1,
+          "col": 4,
+          "type": "taken-f",
+          "pricing": 1,
+          "seatCode": "sk",
+          "passengerCount": 1,
+          "passengerInfo": {
+            "type": "sold",
+            "recordId": "3894621",
+            "name": "MERYEM GÜNTA",
+            "identityNo": "30959470210",
+            "passengerCardNumber": "0",
+            "seatPrice": "180.00",
+            "seatListPrice": "180.00",
+            "paymentTypeId": "1",
+            "openRefNo": "0",
+            "discountTypeId": "1",
+            "phone": "05425507136",
+            "notes": "",
+            "fee": "0.00",
+            "gender": "K",
+            "seatNumber": "3",
+            "toBus": "",
+            "toService": "",
+            "nationality": "TR",
+            "hesCode": "",
+            "hesResponse": "n",
+            "soldAtId": "11",
+            "fromNameId": "9",
+            "fromName": "ANKARA AŞTİ",
+            "toNameId": "3",
+            "toName": "ÇANKIRI OTOGAR",
+            "fromDate": "27.12.2023",
+            "fromTime": "17:00",
+            "soldWorker": "Sultan Gökçe",
+            "soldBy": "Çankırı - Yamuçlar",
+            "soldTime": "23.12.2023 14:07",
+            "gateNo": "30"
+          }
+        },
+        {
+          "no": 4,
+          "row": 2,
+          "col": 1,
+          "type": "available",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 5,
+          "row": 2,
+          "col": 3,
+          "type": "available",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 6,
+          "row": 2,
+          "col": 4,
+          "type": "available",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 7,
+          "row": 3,
+          "col": 1,
+          "type": "taken-f",
+          "pricing": 1,
+          "seatCode": "sk",
+          "passengerCount": 1,
+          "passengerInfo": {
+            "type": "sold",
+            "recordId": "3886134",
+            "name": "MELAHAT KARAMAHMUTOĞLU",
+            "identityNo": "10310645426",
+            "passengerCardNumber": "0",
+            "seatPrice": "300.00",
+            "seatListPrice": "300.00",
+            "paymentTypeId": "2",
+            "openRefNo": "0",
+            "discountTypeId": "1",
+            "phone": "05415109269",
+            "notes": "",
+            "fee": "0.00",
+            "gender": "K",
+            "seatNumber": "7",
+            "toBus": "",
+            "toService": "",
+            "nationality": "TR",
+            "hesCode": "",
+            "hesResponse": null,
+            "soldAtId": "20",
+            "fromNameId": "9",
+            "fromName": "ANKARA AŞTİ",
+            "toNameId": "6",
+            "toName": "KASTAMONU OTOGAR",
+            "fromDate": "27.12.2023",
+            "fromTime": "17:00",
+            "soldWorker": "oBilet",
+            "soldBy": "oBilet",
+            "soldTime": "14.12.2023 18:12",
+            "gateNo": "30"
+          }
+        },
+        {
+          "no": 8,
+          "row": 3,
+          "col": 3,
+          "type": "available",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 9,
+          "row": 3,
+          "col": 4,
+          "type": "available",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 10,
+          "row": 4,
+          "col": 1,
+          "type": "available",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 11,
+          "row": 4,
+          "col": 3,
+          "type": "available",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 12,
+          "row": 4,
+          "col": 4,
+          "type": "available",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 13,
+          "row": 5,
+          "col": 1,
+          "type": "available",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 14,
+          "row": 5,
+          "col": 3,
+          "type": "available",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 15,
+          "row": 5,
+          "col": 4,
+          "type": "available",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 16,
+          "row": 6,
+          "col": 1,
+          "type": "available",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 17,
+          "row": 6,
+          "col": 3,
+          "type": "available",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 18,
+          "row": 6,
+          "col": 4,
+          "type": "available",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 19,
+          "row": 7,
+          "col": 1,
+          "type": "available",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 20,
+          "row": 8,
+          "col": 1,
+          "type": "available",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 21,
+          "row": 8,
+          "col": 3,
+          "type": "available",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 22,
+          "row": 8,
+          "col": 4,
+          "type": "available",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 23,
+          "row": 9,
+          "col": 1,
+          "type": "available",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 24,
+          "row": 9,
+          "col": 3,
+          "type": "available",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 25,
+          "row": 9,
+          "col": 4,
+          "type": "available",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 26,
+          "row": 10,
+          "col": 1,
+          "type": "available",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 27,
+          "row": 10,
+          "col": 3,
+          "type": "available",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 28,
+          "row": 10,
+          "col": 4,
+          "type": "available",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 29,
+          "row": 11,
+          "col": 1,
+          "type": "available",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 30,
+          "row": 11,
+          "col": 3,
+          "type": "available",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 31,
+          "row": 11,
+          "col": 4,
+          "type": "available",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 32,
+          "row": 12,
+          "col": 1,
+          "type": "available",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 33,
+          "row": 12,
+          "col": 3,
+          "type": "available",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 34,
+          "row": 12,
+          "col": 4,
+          "type": "available",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 35,
+          "row": 13,
+          "col": 1,
+          "type": "available-m",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 36,
+          "row": 13,
+          "col": 3,
+          "type": "available-m",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 37,
+          "row": 13,
+          "col": 4,
+          "type": "available-m",
+          "pricing": 1,
+          "seatCode": "mx"
+        },
+        {
+          "no": 38,
+          "row": 13,
+          "col": 2,
+          "type": "available-m",
+          "pricing": 1,
+          "seatCode": "mx"
+        }
+      ]
+    },
+    "pricing": [
+      {
+        "id": 1,
+        "name": "Normal Koltuk",
+        "fixPrice": false,
+        "adult": 300,
+        "child": 210,
+        "handicapped": 210
+      }
+    ]
+  }
+}

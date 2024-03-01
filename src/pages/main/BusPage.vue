@@ -1,81 +1,78 @@
 <template>
-  <table
-    border="0"
-    cellpadding="0"
-    cellspaging="0"
-    style="margin-top: 20px; margin-left: 20px"
-  >
-    <tr>
-      <td>
-        <div class="on_kisim">
-          <q-img
-            src="/src/../public/svg/seat_plan/wheel.svg"
-            width="50px"
-            height="50px"
-            style="margin: 200px 0 0 30px"
-          />
-        </div>
-      </td>
-      <td v-for="r in maxRow" :key="r" class="koltuklar">
-        <div class="koltuk"><busSeat :seat="getSeat(r, 4)" /></div>
-        <div class="koltuk">-</div>
-        <div class="koridor"></div>
-        <div class="koltuk">-</div>
-        <div class="koltuk">-</div>
-      </td>
-      <td>
-        <div class="arka_kisim"></div>
-      </td>
-    </tr>
-  </table>
+  <div class="container q-ma-xs">
+    <q-markup-table
+      id="myTable"
+      flat
+      dense
+      style="width: 100%; border: 0px solid black"
+    >
+      <tr>
+        <td style="width: 0">
+          <div class="on_kisim">
+            <q-img
+              src="/src/../public/svg/seat_plan/wheel.svg"
+              width="50px"
+              height="50px"
+              style="margin: 200px 0 0 30px"
+            />
+          </div>
+        </td>
+        <td
+          style="width: 0; background-color: #e0e0e0"
+          v-for="r in maxRow"
+          :key="r"
+          class="koltuklar"
+        >
+          <BusSeat :seat="getSeat(r, 4)" />
+          <BusSeat :seat="getSeat(r, 3)" />
+          <!--Koridor-->
+          <BusSeat :seat="getSeat(0, 0)" />
+
+          <BusSeat :seat="getSeat(r, 2)" />
+          <BusSeat :seat="getSeat(r, 1)" />
+        </td>
+        <td>
+          <div class="arka_kisim"></div>
+        </td>
+      </tr>
+    </q-markup-table>
+  </div>
   <pre>{{ seatPlan.data.layout.seats }}</pre>
 </template>
 
-<style scoped>
-.koltuklar {
-  background-color: #e0e0e0;
-}
-.koridor,
-.koltuk {
-  width: 50px;
-  height: 50px;
-  background-color: #afafaf;
-  border: 1px solid black;
-  margin: 5px;
-}
-.koridor {
-  background-color: #e0e0e0;
-  border: 0px;
-}
-.on_kisim {
-  width: 100px;
-  height: 300px;
-  background-color: #e0e0e0;
-  border-radius: 50px 0 0 50px;
-}
-.arka_kisim {
-  width: 20px;
-  height: 300px;
-  background-color: #e0e0e0;
-  border-radius: 0 20px 20px 0;
-}
-</style>
-
-<script setup>
-import busSeat from 'src/components/BusSeat.vue';
+<script setup lang="ts">
+import BusSeat from 'src/components/BusSeat.vue';
 import { computed } from 'vue';
 import { onMounted } from 'vue';
+
+interface Seat {
+  no: string;
+  row: string;
+  col: string;
+  type: string;
+  pricing: string;
+  seatCode: string;
+}
 
 onMounted(() => {
   //
 });
 
-function getSeat(r, c) {
-  const seat = seatPlan.data.layout.seats.find(
+function getSeat(r: number, c: number) {
+  let seat = seatPlan.data.layout.seats.find(
     (seat) => seat.row == r && seat.col == c
   );
   if (seat) return seat;
-  return null;
+
+  const blankSeat: Seat = {
+    no: '0',
+    row: '0',
+    col: '0',
+    type: '',
+    pricing: '',
+    seatCode: 'mx',
+  };
+  return blankSeat;
 }
 
 const maxRow = computed(() =>
@@ -476,3 +473,10 @@ const seatPlan = {
   },
 };
 </script>
+
+<style scoped>
+#myTable tr td {
+  margin: 0;
+  padding: 0;
+}
+</style>

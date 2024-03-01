@@ -217,6 +217,24 @@ onMounted(() => {
 </template>
 ```
 
+### `npm run format` komutunun projeye eklenmesi
+
+```JS
+// Projeye prettier ekleyelim
+npm i prettier
+
+// Prettier'i global olarak yükleyelim
+npm i -g prettier
+
+// package.json dosyasına "format"  satırını ekleyelim
+"scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "format": "prettier --write src/"
+  },
+```
+
 # Quasar App (teklifquasar)
 
 A Quasar Project

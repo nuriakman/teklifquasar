@@ -1,1 +1,66 @@
 // app global css in SCSS form
+
+/*
+"seatCode":
+    mx
+    re
+    rk
+    se
+    sk
+"type":
+    available-f
+    available-m
+    available
+    taken-f
+    taken-m
+*/
+
+/** OTOBÜS İÇİN CSS TANIMLARI **/
+/** OTOBÜS İÇİN CSS TANIMLARI **/
+.koltuklar {
+  background-color: #000;
+}
+.koridor,
+.koltuk {
+  width: 40px;
+  height: 40px;
+  background-color: #afafaf;
+  border-radius: 5px;
+  margin: 5px 10px 2px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.koridor {
+  height: 40px;
+  background-color: #e0e0e0;
+  border: 0px;
+  text-align: center;
+}
+.on_kisim {
+  width: 100px;
+  height: 210px;
+  background-color: #e0e0e0;
+  border-radius: 50px 0 0 50px;
+}
+.arka_kisim {
+  width: 20px;
+  height: 210px;
+  background-color: #e0e0e0;
+  border-radius: 0 20px 20px 0;
+}
+
+.available-f,
+.available-m,
+.available {
+  background-color: #fafafa;
+  border: 1px solid #777777;
+}
+.taken-f {
+  background-color: #ead8de;
+  border: 1px solid #f18fb0;
+}
+.taken-m {
+  background-color: #c7e2fb;
+  border: 1px solid #79bcfa;
+}

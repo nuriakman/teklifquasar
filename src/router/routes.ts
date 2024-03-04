@@ -33,6 +33,8 @@ const routes: RouteRecordRaw[] = [
         component: () => import('pages/main/ConfettiPage.vue'),
       },
       { path: 'test', component: () => import('pages/main/TestPage.vue') },
+      { path: 'test1', component: () => import('pages/main/Test1Page.vue') },
+      { path: 'test2', component: () => import('pages/main/Test2Page.vue') },
       {
         path: 'logout',
         component: () => import('pages/main/LogoutPage.vue'),

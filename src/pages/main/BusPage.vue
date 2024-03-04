@@ -13,7 +13,7 @@
               src="/src/../public/svg/seat_plan/wheel.svg"
               width="50px"
               height="50px"
-              style="margin: 200px 0 0 30px"
+              style="margin: 160px 0 0 30px; rotate: -90deg"
             />
           </div>
         </td>
@@ -51,7 +51,6 @@ interface Seat {
   col: string;
   type: string;
   pricing: string;
-  seatCode: string;
 }
 
 onMounted(() => {
@@ -70,7 +69,6 @@ function getSeat(r: number, c: number) {
     col: '0',
     type: '',
     pricing: '',
-    seatCode: 'mx',
   };
   return blankSeat;
 }
@@ -160,7 +158,6 @@ const seatPlan = {
           col: 1,
           type: 'taken-f',
           pricing: 1,
-          seatCode: 'sk',
         },
         {
           no: 2,
@@ -168,7 +165,6 @@ const seatPlan = {
           col: 3,
           type: 'available-f',
           pricing: 1,
-          seatCode: 'mx',
         },
         {
           no: 3,
@@ -176,7 +172,6 @@ const seatPlan = {
           col: 4,
           type: 'taken-f',
           pricing: 1,
-          seatCode: 'sk',
         },
         {
           no: 4,
@@ -184,7 +179,6 @@ const seatPlan = {
           col: 1,
           type: 'taken-f',
           pricing: 1,
-          seatCode: 'sk',
         },
         {
           no: 5,
@@ -192,7 +186,6 @@ const seatPlan = {
           col: 3,
           type: 'taken-f',
           pricing: 1,
-          seatCode: 'sk',
         },
         {
           no: 6,
@@ -200,7 +193,6 @@ const seatPlan = {
           col: 4,
           type: 'taken-f',
           pricing: 1,
-          seatCode: 'sk',
         },
         {
           no: 7,
@@ -208,7 +200,6 @@ const seatPlan = {
           col: 1,
           type: 'taken-f',
           pricing: 1,
-          seatCode: 'sk',
         },
         {
           no: 8,
@@ -216,7 +207,6 @@ const seatPlan = {
           col: 3,
           type: 'available-f',
           pricing: 1,
-          seatCode: 'mx',
         },
         {
           no: 9,
@@ -224,7 +214,6 @@ const seatPlan = {
           col: 4,
           type: 'taken-f',
           pricing: 1,
-          seatCode: 'sk',
         },
         {
           no: 10,
@@ -232,7 +221,6 @@ const seatPlan = {
           col: 1,
           type: 'taken-m',
           pricing: 1,
-          seatCode: 're',
         },
         {
           no: 11,
@@ -240,7 +228,6 @@ const seatPlan = {
           col: 3,
           type: 'taken-m',
           pricing: 1,
-          seatCode: 're',
         },
         {
           no: 12,
@@ -248,7 +235,6 @@ const seatPlan = {
           col: 4,
           type: 'taken-m',
           pricing: 1,
-          seatCode: 're',
         },
         {
           no: 13,
@@ -256,7 +242,6 @@ const seatPlan = {
           col: 1,
           type: 'taken-f',
           pricing: 1,
-          seatCode: 'sk',
         },
         {
           no: 14,
@@ -264,7 +249,6 @@ const seatPlan = {
           col: 3,
           type: 'available-f',
           pricing: 1,
-          seatCode: 'mx',
         },
         {
           no: 15,
@@ -272,7 +256,6 @@ const seatPlan = {
           col: 4,
           type: 'taken-f',
           pricing: 1,
-          seatCode: 'sk',
         },
         {
           no: 16,
@@ -280,7 +263,6 @@ const seatPlan = {
           col: 1,
           type: 'taken-m',
           pricing: 1,
-          seatCode: 'se',
         },
         {
           no: 17,
@@ -288,7 +270,6 @@ const seatPlan = {
           col: 3,
           type: 'available',
           pricing: 1,
-          seatCode: 'mx',
         },
         {
           no: 18,
@@ -296,7 +277,6 @@ const seatPlan = {
           col: 4,
           type: 'available',
           pricing: 1,
-          seatCode: 'mx',
         },
         {
           no: 19,
@@ -304,7 +284,6 @@ const seatPlan = {
           col: 1,
           type: 'available',
           pricing: 1,
-          seatCode: 'mx',
         },
         {
           no: 20,
@@ -312,7 +291,6 @@ const seatPlan = {
           col: 1,
           type: 'available',
           pricing: 1,
-          seatCode: 'mx',
         },
         {
           no: 21,
@@ -320,7 +298,6 @@ const seatPlan = {
           col: 3,
           type: 'available',
           pricing: 1,
-          seatCode: 'mx',
         },
         {
           no: 22,
@@ -328,7 +305,6 @@ const seatPlan = {
           col: 4,
           type: 'available',
           pricing: 1,
-          seatCode: 'mx',
         },
         {
           no: 23,
@@ -336,7 +312,6 @@ const seatPlan = {
           col: 1,
           type: 'available',
           pricing: 1,
-          seatCode: 'mx',
         },
         {
           no: 24,
@@ -344,7 +319,6 @@ const seatPlan = {
           col: 3,
           type: 'available',
           pricing: 1,
-          seatCode: 'mx',
         },
         {
           no: 25,
@@ -352,7 +326,6 @@ const seatPlan = {
           col: 4,
           type: 'available',
           pricing: 1,
-          seatCode: 'mx',
         },
         {
           no: 26,
@@ -360,7 +333,6 @@ const seatPlan = {
           col: 1,
           type: 'available',
           pricing: 1,
-          seatCode: 'mx',
         },
         {
           no: 27,
@@ -368,7 +340,6 @@ const seatPlan = {
           col: 3,
           type: 'available',
           pricing: 1,
-          seatCode: 'mx',
         },
         {
           no: 28,
@@ -376,7 +347,6 @@ const seatPlan = {
           col: 4,
           type: 'available',
           pricing: 1,
-          seatCode: 'mx',
         },
         {
           no: 29,
@@ -384,7 +354,6 @@ const seatPlan = {
           col: 1,
           type: 'available',
           pricing: 1,
-          seatCode: 'mx',
         },
         {
           no: 30,
@@ -392,7 +361,6 @@ const seatPlan = {
           col: 3,
           type: 'available',
           pricing: 1,
-          seatCode: 'mx',
         },
         {
           no: 31,
@@ -400,7 +368,6 @@ const seatPlan = {
           col: 4,
           type: 'available',
           pricing: 1,
-          seatCode: 'mx',
         },
         {
           no: 32,
@@ -408,7 +375,6 @@ const seatPlan = {
           col: 1,
           type: 'available',
           pricing: 1,
-          seatCode: 'mx',
         },
         {
           no: 33,
@@ -416,7 +382,6 @@ const seatPlan = {
           col: 3,
           type: 'available',
           pricing: 1,
-          seatCode: 'mx',
         },
         {
           no: 34,
@@ -424,7 +389,6 @@ const seatPlan = {
           col: 4,
           type: 'available',
           pricing: 1,
-          seatCode: 'mx',
         },
         {
           no: 35,
@@ -432,7 +396,6 @@ const seatPlan = {
           col: 1,
           type: 'available-m',
           pricing: 1,
-          seatCode: 'mx',
         },
         {
           no: 36,
@@ -440,7 +403,6 @@ const seatPlan = {
           col: 3,
           type: 'available-m',
           pricing: 1,
-          seatCode: 'mx',
         },
         {
           no: 37,
@@ -448,7 +410,6 @@ const seatPlan = {
           col: 4,
           type: 'available-m',
           pricing: 1,
-          seatCode: 'mx',
         },
         {
           no: 38,
@@ -456,7 +417,6 @@ const seatPlan = {
           col: 2,
           type: 'available-m',
           pricing: 1,
-          seatCode: 'mx',
         },
       ],
     },

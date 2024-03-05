@@ -3,11 +3,15 @@
     <q-btn label="Radio Options" color="primary" @click="radio" />
   </div>
   <myComponent v-model="cinsiyet" />
+  Sayaç: {{ global.counter }}
 </template>
 
 <script setup>
 import { useQuasar } from 'quasar';
 import myComponent from 'src/components/MyComponent.vue';
+
+import { useCounterStore } from 'src/stores/example-store';
+const global = useCounterStore();
 
 const $q = useQuasar();
 // radio();

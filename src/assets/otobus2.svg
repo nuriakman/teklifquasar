@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="182.546" height="260" viewBox="0 0 48.299 68.792">
+
+/* Ön Bölüm */
+<path style="color:#000;fill:#f2f2f2;fill-opacity:.5;-inkscape-stroke:none" d="M9.933.132a9.78 9.78 0 0 0-9.8 9.801v48.925a9.78 9.78 0 0 0 9.8 9.801h11.234V.132Z"></path>
+<path style="color:#000;fill:#999;-inkscape-stroke:none" d="M9.934 0A9.915 9.915 0 0 0 0 9.934v48.923c0 5.501 4.433 9.934 9.934 9.934h11.233v-.263H9.934a9.647 9.647 0 0 1-9.67-9.67V9.933a9.647 9.647 0 0 1 9.67-9.67h11.233V0Z"></path><g transform="translate(.463 .376)"><circle style="fill:none;stroke:#666;stroke-width:.5;stroke-dasharray:none" cx="11.29" cy="55.563" r="7"></circle><path style="fill:none;stroke:#666;stroke-width:.5;stroke-dasharray:none" d="M11.29 62.562v-14M11.17 55.562h7.12"></path></g>
+/* Koltuk Bölümü */
+<path style="color:#000;fill:#f2f2f2;fill-opacity:.5;stroke-width:.901388;-inkscape-stroke:none" d="M21.167.132v68.527h17.198V.132Z"></path>
+<path style="color:#000;fill:#999;stroke-width:.901388;-inkscape-stroke:none" d="M21.167 0v.263h17.198v-.264Zm0 68.527v.264h17.198v-.264z"></path><g transform="translate(-1.667)">
+/* Koltuk 1 */
+<rect style="fill:#faa;fill-opacity:.5;stroke:#de8787;stroke-width:.264999" width="10.583" height="10.583" x="27.993" y="2.778" ry="3.229"></rect>
+<rect style="fill:#faa;fill-opacity:.5;stroke:#de8787;stroke-width:.264999" width="2.646" height="5.292" x="35.931" y="5.424" ry="1.021"></rect>
+<text xml:space="preserve" transform="matrix(.26458 0 0 .26458 -5.89 -.37)" style="font-size:21.3333px;line-height:1.25;font-family:Gargle;-inkscape-font-specification:Gargle;text-align:center;white-space:pre;shape-inside:url(#a);display:inline;fill:#000;fill-opacity:1;stroke:none;stroke-width:1.00157"><tspan x="131.043" y="39.411"><tspan style="font-family:Sans;-inkscape-font-specification:Sans">55</tspan></tspan></text></g><g transform="translate(-1.667)">
+/* Koltuk 2 */
+<rect style="fill:#c6e9af;fill-opacity:.5;stroke:#9dac93;stroke-width:.264999" width="10.583" height="10.583" x="27.993" y="16.008" ry="3.229"></rect>
+<rect style="fill:#c6e9af;fill-opacity:.5;stroke:#9dac93;stroke-width:.264999" width="2.646" height="5.292" x="35.931" y="18.653" ry="1.021"></rect>
+<text xml:space="preserve" transform="matrix(.26458 0 0 .26458 -5.89 12.859)" style="font-size:21.3333px;line-height:1.25;font-family:Gargle;-inkscape-font-specification:Gargle;text-align:center;white-space:pre;shape-inside:url(#b);display:inline;fill:#000;fill-opacity:1;stroke:none;stroke-width:1.00157"><tspan x="131.043" y="39.411"><tspan style="font-family:Sans;-inkscape-font-specification:Sans">55</tspan></tspan></text></g><g transform="translate(-1.667 13.229)">
+/* Koltuk 3 */
+<rect style="fill:#ccc;fill-opacity:.5;stroke:#666;stroke-width:.264999" width="10.583" height="10.583" x="27.993" y="29.237" ry="3.229"></rect>
+<rect style="fill:#ccc;fill-opacity:.5;stroke:#666;stroke-width:.264999" width="2.646" height="5.292" x="35.931" y="31.882" ry="1.021"></rect>
+<text xml:space="preserve" transform="matrix(.26458 0 0 .26458 -5.89 25.955)" style="font-size:21.3333px;line-height:1.25;font-family:Gargle;-inkscape-font-specification:Gargle;text-align:center;white-space:pre;shape-inside:url(#c);display:inline;fill:#000;fill-opacity:1;stroke:none;stroke-width:1.00157"><tspan x="131.043" y="39.411"><tspan style="font-family:Sans;-inkscape-font-specification:Sans">55</tspan></tspan></text></g><g transform="translate(-1.667 39.687)">
+/* Koltuk 4 */
+<rect style="fill:#c6e9af;fill-opacity:.5;stroke:#9dac93;stroke-width:.264999" width="10.583" height="10.583" x="27.993" y="16.008" ry="3.229"></rect>
+<rect style="fill:#c6e9af;fill-opacity:.5;stroke:#9dac93;stroke-width:.264999" width="2.646" height="5.292" x="35.931" y="18.653" ry="1.021"></rect>
+<text xml:space="preserve" transform="matrix(.26458 0 0 .26458 -5.89 12.859)" style="font-size:21.3333px;line-height:1.25;font-family:Gargle;-inkscape-font-specification:Gargle;text-align:center;white-space:pre;shape-inside:url(#d);display:inline;fill:#000;fill-opacity:1;stroke:none;stroke-width:1.00157"><tspan x="131.043" y="39.411"><tspan style="font-family:Sans;-inkscape-font-specification:Sans">55</tspan></tspan></text></g>
+/* Arka Bölüm */
+<path style="color:#000;fill:#f2f2f2;fill-opacity:.5;-inkscape-stroke:none" d="M11.233.132V68.66a9.78 9.78 0 0 0 9.801-9.8V9.932a9.78 9.78 0 0 0-9.8-9.8z" transform="matrix(1.00003 0 0 1 27.131 0)"></path>
+<path style="color:#000;fill:#999;-inkscape-stroke:none" d="M11.233 0v.264a9.647 9.647 0 0 1 9.67 9.67v48.923a9.647 9.647 0 0 1-9.67 9.67v.264c5.5 0 9.934-4.433 9.934-9.934V9.934C21.167 4.433 16.734 0 11.233 0Z" transform="matrix(1.00003 0 0 1 27.131 0)"></path>
+
+</svg>

@@ -10,9 +10,6 @@ $taken-m-seat-border-color: #79bcfa;
 $available-seat-bg-color: #fafafa;
 $available-seat-border-color: #777777;
 
-$empty-seat-bg-color: #e0e0e0;
-$selected-seat-bg-color: #e91e63;
-
 /*
 "seatCode":
     mx
@@ -80,4 +77,13 @@ $selected-seat-bg-color: #e91e63;
 }
 .bus-bg-color {
   background-color: $bus-bg-color;
+}
+.bus-seat-row {
+  width: 0 !important;
+  background-color: $bus-bg-color !important;
+
+  /* Seat Number Display Settings */
+  color: black;
+  font-size: 18px;
+  font-weight: 300;
 }

@@ -13,6 +13,7 @@
 
 <script setup lang="ts">
 import { ref, computed } from 'vue';
+import { ISeat } from 'src/types/myTypes';
 
 import { useCounterStore } from 'src/stores/example-store';
 const global = useCounterStore();
@@ -59,7 +60,7 @@ if (mySeat.value == null) {
   };
 }
 
-function seatClicked(seat: Seat) {
+function seatClicked(seat: ISeat) {
   global.seatt = seat;
   if (seat.type == 'taken-f' || seat.type == 'taken-m') {
     // alert('Koltuk zaten dolu');

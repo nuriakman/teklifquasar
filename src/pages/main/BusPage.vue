@@ -106,11 +106,11 @@ const selectGender = (gender: string) => {
   selectedGender.value = gender;
   global.small = false;
 };
-
+import { ISeat } from 'src/types/myTypes';
 import { useCounterStore } from 'src/stores/example-store';
 const global = useCounterStore();
 
-interface Seat {
+const seatUndefined: ISeat = {
   no: string | number;
   row: string | number;
   col: string | number;

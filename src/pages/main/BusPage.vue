@@ -119,12 +119,11 @@ onMounted(() => {
 });
 
 function getSeat(r: number, c: number) {
-  let seat = seatPlan.data.layout.seats.find(
-    (seat) => seat.row == r && seat.col == c
+  return (
+    seatPlan.data.layout.seats.find(
+      (seat) => seat.row === r && seat.col === c
+    ) || seatUndefined
   );
-  if (seat) return seat;
-
-  return seatUndefined;
 }
 
 const maxRow = computed(() =>

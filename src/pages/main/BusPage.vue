@@ -7,8 +7,9 @@
       style="width: 100%; border: 0px solid black"
     >
       <tr>
+        <!-- Ön Kısım -->
         <td style="width: 0">
-          <div class="on_kisim">
+          <div class="bus-front-side">
             <q-img
               src="/src/../public/svg/seat_plan/wheel.svg"
               width="50px"
@@ -17,27 +18,70 @@
             />
           </div>
         </td>
+
+        <!-- Koltuklar -->
         <td
           style="width: 0; background-color: #e0e0e0"
           v-for="r in maxRow"
           :key="r"
-          class="koltuklar"
+          class="bus-bg-color"
         >
           <BusSeat :seat="getSeat(r, 4)" />
           <BusSeat :seat="getSeat(r, 3)" />
-          <!--Koridor-->
+
+          <!-- Koridor -->
           <BusSeat :seat="getSeat(0, 0)" />
 
           <BusSeat :seat="getSeat(r, 2)" />
           <BusSeat :seat="getSeat(r, 1)" />
         </td>
+
+        <!-- Arka Kısım -->
         <td>
-          <div class="arka_kisim"></div>
+          <div class="bus-back-side"></div>
         </td>
       </tr>
     </q-markup-table>
   </div>
+  <pre style="color: red"><b>selectedSeats:</b>{{ selectedSeats }}</pre>
+  <pre style="color: blue"><b>SEAT:</b>{{ global.seatt }}</pre>
   <pre>{{ seatPlan.data.layout.seats }}</pre>
+
+  <q-dialog
+    v-model="global.small"
+    persistent
+    transition-show="scale"
+    transition-hide="scale"
+  >
+    <q-card style="width: 250px">
+      <q-card-section class="q-pt-none text-h5 text-center">
+        {{ global.seatt.no }} Nolu Koltuk?
+      </q-card-section>
+      <q-card-section class="q-pt-none q-mt-none text-center">
+        <q-btn
+          rounded
+          elevated
+          @click="selectGender('m')"
+          size="40px"
+          Xfont-size="50px"
+          color="white"
+          text-color="blue"
+          icon="man"
+          class="q-mr-sm"
+        />
+        <q-btn
+          rounded
+          elevated
+          @click="selectGender('f')"
+          size="40px"
+          Xfont-size="50px"
+          color="white"
+          text-color="pink"
+          icon="woman"
+        />
+      </q-card-section>
+    </q-card>
+  </q-dialog>
 </template>
 
 <script setup lang="ts">
@@ -45,13 +89,42 @@ import BusSeat from 'src/components/BusSeat.vue';
 import { computed } from 'vue';
 import { onMounted } from 'vue';
 
-interface Seat {
-  no: string;
-  row: string;
-  col: string;
-  type: string;
-  pricing: string;
+import { ref } from 'vue';
+
+interface SSeat {
+  seatseat: object;
+  gender: string;
 }
+
+const selectedGender = ref('');
+const selectedSeats = ref<SSeat[]>([]);
+
+const selectGender = (gender: string) => {
+  console.log(gender + ' seçildi');
+  selectedSeats.value.push({ seatseat: global.seatt, gender: gender });
+
+  selectedGender.value = gender;
+  global.small = false;
+};
+
+import { useCounterStore } from 'src/stores/example-store';
+const global = useCounterStore();
+
+interface Seat {
+  no: string | number;
+  row: string | number;
+  col: string | number;
+  type: string;
+  pricing: string | number;
+}
+
+const seatUndefined: Seat = {
+  no: '',
+  row: '',
+  col: '',
+  type: 'seat-undefined',
+  pricing: '',
+};
 
 onMounted(() => {
   //
@@ -63,14 +136,7 @@ function getSeat(r: number, c: number) {
   );
   if (seat) return seat;
 
-  const blankSeat: Seat = {
-    no: '0',
-    row: '0',
-    col: '0',
-    type: '',
-    pricing: '',
-  };
-  return blankSeat;
+  return seatUndefined;
 }
 
 const maxRow = computed(() =>
@@ -86,55 +152,10 @@ const seatPlan = {
     journeyId: '147417-3-9',
   },
   data: {
-    stats: {
-      userTotal: 0,
-      userCount: 0,
-      officeTotal: 0,
-      officeCount: 0,
-      ticketCount: 10,
-      ticketTotal: 2180,
-      reservedCount: 3,
-      officeDiscountTotal: 0,
-      officeDiscountCount: 0,
-      officeDiscountBalanceHandicaped: 2,
-      officeDiscountLimit: 0,
-      officeDiscountBalance: 0,
-      freeCount: 25,
-    },
-    reservedPassengersList: [
-      {
-        type: 'reserved',
-        recordId: '493764',
-        name: 'AYTUĞ ARMAĞAN',
-        seatNumber: '10',
-        fromName: 'ÇANKIRI OTOGAR',
-        toName: 'ANKARA AŞTİ',
-      },
-      {
-        type: 'reserved',
-        recordId: '492961',
-        name: 'EMİNE KÜÇÜKÇAKIR',
-        seatNumber: '11',
-        fromName: 'KASTAMONU OTOGAR',
-        toName: 'ANKARA AŞTİ',
-      },
-      {
-        type: 'reserved',
-        recordId: '492962',
-        name: 'EMİNE KÜÇÜKÇAKIR',
-        seatNumber: '12',
-        fromName: 'KASTAMONU OTOGAR',
-        toName: 'ANKARA AŞTİ',
-      },
-    ],
     thisStationTime: '2024-01-10 14:00:00',
     thisStationFinishTime: '2024-01-10 14:15:00',
     firstStationTime: '2024-01-10 12:00:00',
     lastStationTime: '2024-01-10 16:00:00',
-    stats2: {
-      salesBrief: '',
-      salesDetail: '',
-    },
     other: {
       journeyNotes: [],
       forbiddenToInternet: null,

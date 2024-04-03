@@ -1,4 +1,17 @@
 // app global css in SCSS form
+$bus-bg-color: #e0e0e0;
+
+$taken-f-seat-bg-color: #ead8de;
+$taken-f-seat-border-color: #f18fb0;
+
+$taken-m-seat-bg-color: #c7e2fb;
+$taken-m-seat-border-color: #79bcfa;
+
+$available-seat-bg-color: #fafafa;
+$available-seat-border-color: #777777;
+
+$empty-seat-bg-color: #e0e0e0;
+$selected-seat-bg-color: #e91e63;
 
 /*
 "seatCode":
@@ -17,50 +30,54 @@
 
 /** OTOBÜS İÇİN CSS TANIMLARI **/
 /** OTOBÜS İÇİN CSS TANIMLARI **/
-.koltuklar {
-  background-color: #000;
-}
-.koridor,
-.koltuk {
+.bus-corridor,
+.bus-seat {
   width: 40px;
   height: 40px;
-  background-color: #afafaf;
+  background-color: $bus-bg-color;
   border-radius: 5px;
   margin: 5px 10px 2px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.koridor {
+.bus-corridor {
   height: 40px;
-  background-color: #e0e0e0;
+  background-color: $bus-bg-color;
   border: 0px;
   text-align: center;
 }
-.on_kisim {
+.bus-front-side {
   width: 100px;
   height: 250px;
-  background-color: #e0e0e0;
+  background-color: $bus-bg-color;
   border-radius: 50px 0 0 50px;
 }
-.arka_kisim {
+.bus-back-side {
   width: 20px;
   height: 250px;
-  background-color: #e0e0e0;
+  background-color: $bus-bg-color;
   border-radius: 0 20px 20px 0;
 }
 
 .available-f,
 .available-m,
 .available {
-  background-color: #fafafa;
-  border: 1px solid #777777;
+  background-color: $available-seat-bg-color;
+  border: 1px solid $available-seat-border-color;
 }
 .taken-f {
-  background-color: #ead8de;
-  border: 1px solid #f18fb0;
+  background-color: $taken-f-seat-bg-color;
+  border: 1px solid $taken-f-seat-border-color;
 }
 .taken-m {
-  background-color: #c7e2fb;
-  border: 1px solid #79bcfa;
+  background-color: $taken-m-seat-bg-color;
+  border: 1px solid $taken-m-seat-border-color;
+}
+.seat-undefined {
+  background-color: $bus-bg-color;
+  border: 1px solid $bus-bg-color;
+}
+.bus-bg-color {
+  background-color: $bus-bg-color;
 }

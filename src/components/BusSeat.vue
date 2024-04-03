@@ -1,7 +1,7 @@
 <template>
-  <div class="koridor" v-if="isKoridor" />
+  <div class="bus-corridor" v-if="isKoridor" />
   <div
-    class="koltuk"
+    class="bus-seat"
     :class="mySeat.type"
     :style="{ cursor: myPointer }"
     v-if="!isKoridor"
@@ -14,12 +14,15 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue';
 
+import { useCounterStore } from 'src/stores/example-store';
+const global = useCounterStore();
+
 interface Seat {
-  no: string;
-  row: string;
-  col: string;
+  no: string | number;
+  row: string | number;
+  col: string | number;
   type: string;
-  pricing: string;
+  pricing: string | number;
 }
 
 const props = defineProps(['seat']);
@@ -30,8 +33,12 @@ const isKoridor = computed(() => {
 });
 
 const myPointer = computed(() => {
-  if (mySeat.value.type == 'taken-f' || mySeat.value.type == 'taken-m')
+  if (mySeat.value.type == 'taken-f' || mySeat.value.type == 'taken-m') {
     return 'not-allowed';
+  } else {
+    return 'pointer';
+  }
+  /*
   if (
     mySeat.value.type == 'available-f' ||
     mySeat.value.type == 'available-m' ||
@@ -39,6 +46,7 @@ const myPointer = computed(() => {
   )
     return 'pointer';
   return 'pointer'; // Buna gerek kalmıyor, ama olsun...
+  */
 });
 
 if (mySeat.value == null) {
@@ -52,10 +60,12 @@ if (mySeat.value == null) {
 }
 
 function seatClicked(seat: Seat) {
+  global.seatt = seat;
   if (seat.type == 'taken-f' || seat.type == 'taken-m') {
     // alert('Koltuk zaten dolu');
     console.log('Koltuk zaten dolu');
-    return false;
+    global.small = false;
+    // return false;
   }
   if (
     seat.type == 'available-f' ||
@@ -63,7 +73,8 @@ function seatClicked(seat: Seat) {
     seat.type == 'available'
   ) {
     console.log('Koltuk boş:', seat.no);
-    return true;
+    global.small = true;
+    // return true;
   }
   console.log(seat.no);
 }

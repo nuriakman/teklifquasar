@@ -4,7 +4,7 @@ import { ISeat } from 'src/types/myTypes';
 export const useCounterStore = defineStore('counter', {
   state: () => ({
     counter: 0,
-    small: false,
+    askGender: false,
     activeSeat: {} as ISeat,
   }),
   getters: {

@@ -20,12 +20,7 @@
         </td>
 
         <!-- Koltuklar -->
-        <td
-          style="width: 0; background-color: #e0e0e0"
-          v-for="r in maxRow"
-          :key="r"
-          class="bus-bg-color"
-        >
+        <td v-for="r in maxRow" :key="r" class="bus-seat-row">
           <BusSeat :seat="getSeat(r, 4)" />
           <BusSeat :seat="getSeat(r, 3)" />
 
@@ -43,19 +38,20 @@
       </tr>
     </q-markup-table>
   </div>
+
   <pre style="color: red"><b>selectedSeats:</b>{{ selectedSeats }}</pre>
-  <pre style="color: blue"><b>SEAT:</b>{{ global.seatt }}</pre>
+  <pre style="color: blue"><b>SEAT:</b>{{ global.activeSeat }}</pre>
   <pre>{{ seatPlan.data.layout.seats }}</pre>
 
   <q-dialog
-    v-model="global.small"
+    v-model="global.askGender"
     persistent
     transition-show="scale"
     transition-hide="scale"
   >
     <q-card style="width: 250px">
       <q-card-section class="q-pt-none text-h5 text-center">
-        {{ global.seatt.no }} Nolu Koltuk?
+        {{ global.activeSeat.no }} Nolu Koltuk?
       </q-card-section>
       <q-card-section class="q-pt-none q-mt-none text-center">
         <q-btn
@@ -101,24 +97,16 @@ const selectedSeats = ref<SSeat[]>([]);
 
 const selectGender = (gender: string) => {
   console.log(gender + ' seçildi');
-  selectedSeats.value.push({ seatseat: global.seatt, gender: gender });
+  selectedSeats.value.push({ seatseat: global.activeSeat, gender: gender });
 
   selectedGender.value = gender;
-  global.small = false;
+  global.askGender = false;
 };
 import { ISeat } from 'src/types/myTypes';
 import { useCounterStore } from 'src/stores/example-store';
 const global = useCounterStore();
 
 const seatUndefined: ISeat = {
-  no: string | number;
-  row: string | number;
-  col: string | number;
-  type: string;
-  pricing: string | number;
-}
-
-const seatUndefined: Seat = {
   no: '',
   row: '',
   col: '',

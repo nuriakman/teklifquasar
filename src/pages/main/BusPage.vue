@@ -11,7 +11,7 @@
         <td style="width: 0">
           <div class="bus-front-side">
             <q-img
-              src="/src/../public/svg/seat_plan/wheel.svg"
+              src="/svg/seat_plan/wheel.svg"
               width="50px"
               height="50px"
               style="margin: 160px 0 0 30px; rotate: -90deg"

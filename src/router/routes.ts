@@ -40,6 +40,10 @@ const routes: RouteRecordRaw[] = [
         component: () => import('pages/main/LogoutPage.vue'),
       },
       {
+        path: 'user/:id',
+        component: () => import('pages/main/UserPage.vue'),
+      },
+      {
         path: 'offer',
         component: () => import('pages/main/OfferPage.vue'),
       },

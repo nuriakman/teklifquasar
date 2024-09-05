@@ -1,20 +1,35 @@
 <template>
-  <div class="bus-corridor" v-if="isCorridor" />
+  <div
+    class="bus-corridor"
+    v-if="isCorridor"
+  />
   <div
     class="bus-seat"
     :class="mySeat.type"
     :style="{ cursor: myPointer }"
     v-if="!isCorridor"
-    @click="seatClicked(mySeat)"
+    XXclick="seatClicked(mySeat)"
   >
-    {{ mySeat.no }}
+    {{ seat.no }}
+    <q-menu
+      cover
+      anchor="center middle"
+      transition-show="jump-down"
+      transition-hide="jump-up"
+      transition-duration="300"
+      max-width="70px"
+      style="opacity: 0.8;"
+    >
+      <myComponent :seat="mySeat" />
+    </q-menu>
+
   </div>
 </template>
 
 <script setup lang="ts">
 import { ref, computed } from 'vue';
 import { ISeat } from 'src/types/myTypes';
-
+import myComponent from 'src/components/MyComponent.vue';
 import { useCounterStore } from 'src/stores/example-store';
 const global = useCounterStore();
 
